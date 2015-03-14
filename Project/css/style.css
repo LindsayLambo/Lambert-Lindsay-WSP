@@ -24,3 +24,19 @@ table {
   border-collapse: collapse;  
   border-spacing: 0;  
   }
+
+
+  /*  My CSS */
+
+  body {
+    background-color: #fc6;
+    padding: 5px;
+  }
+
+  h1, h2 {
+    background-color: rgba(224, 185, 114, 1);
+    color: #fc6;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
