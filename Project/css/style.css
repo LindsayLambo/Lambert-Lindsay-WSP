@@ -32,11 +32,12 @@ table {
     font-family: 'Perpetua', Garamond, serif;
     background-color: #fc6;
     padding: 5px;
+    margin-top: 30px;
   }
 
   h1, h2 {
     font-family: 'Avenir', Helvetica, sans-serif;
-    background-color: #cc6;
+    background-color: #c96;
     color: #ccf;
     margin: 5px;
     padding: 5px;
@@ -84,10 +85,27 @@ section {
   margin: 5px;
 }
 
+#register {
+  background-color: #cc6;
+  color: #3cc;
+  padding: 10px;
+  margin: 5px;
+  font-size: 22px;
+  position: relative;
+}
 
 
+#about {
+  position: relative;
+  padding: 5px;
+  margin: 10px;
+  float: left;
+  font-size: 22px;
+}
 
-
+#bestmatch {
+  margin-top: 30px;
+}
 
 
 @media screen and (min-width: 768px)
