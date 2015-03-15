@@ -29,14 +29,68 @@ table {
   /*  My CSS */
 
   body {
+    font-family: 'Perpetua', Garamond, serif;
     background-color: #fc6;
     padding: 5px;
   }
 
   h1, h2 {
-    background-color: rgba(224, 185, 114, 1);
-    color: #fc6;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    background-color: #cc6;
+    color: #ccf;
     margin: 5px;
     padding: 5px;
-    border-radius: 5px;
   }
+
+  /* Styling Links */
+
+a:link {
+  color: #3cc;
+  text-decoration: none;
+}
+a:visited {
+  color: #9cf;
+}
+a:hover {
+  color: #ccf;
+  text-decoration: underline;
+  background-color: rgba(255, 204, 102, .5);
+}
+a:active {
+  color: #3cc;
+  text-decoration: underline;
+}
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #c96;
+}
+
+
+section {
+  width: 75%;
+  position: ;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ccf;
+}
+
+.articles {
+  background-color: #9cf;
+  color: #ccf;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px)
+.jumbotron {
+  padding: 48px 0;
+}
