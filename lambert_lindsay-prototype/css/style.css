@@ -28,6 +28,8 @@ table {
 
   /*  My CSS */
 
+  /*  General Styling  */
+
   body {
     font-family: 'Perpetua', Garamond, serif;
     background-color: #fc6;
@@ -63,6 +65,8 @@ a:active {
   text-decoration: underline;
 }
 
+/*   Styling the Jumbotron on the index page  */
+
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
@@ -70,6 +74,8 @@ a:active {
   background-color: #c96;
 }
 
+
+/*   Styling the sections and articles on the results page  */
 
 section {
   width: 75%;
@@ -86,7 +92,10 @@ section {
   padding: 5px;
   margin: 5px;
   border: 3px solid #cc6;
+  box-shadow: 1px 2px 3px #666;
 }
+
+/*  Styling for the button on the index page for signing up as a new member  */
 
 #register {
   background-color: #cc6;
@@ -97,6 +106,7 @@ section {
   position: relative;
 }
 
+/*  Styling for the 'About' section on the index page */
 
 #about {
   position: relative;
@@ -106,10 +116,13 @@ section {
   font-size: 22px;
 }
 
+/*  Just moving the headers farther down the page on the results page  */
+
 #bestmatch {
   margin-top: 30px;
 }
 
+/*  Styling for the descriptions on the results page  */
 
 .description {
   position: relative;
@@ -120,6 +133,7 @@ section {
   text-shadow: 1px 2px 2px #666;
 }
 
+/*  Styling for the login and new member forms on the login page - I was considering combining them, depending on the requirements.  */
 
 #login, #newMember {
   font-size: 20px;
@@ -128,6 +142,7 @@ section {
   margin: 5px;
 }
 
+/*  Attempting to Style the images on the login page  */
 
 #login1, #login2, #login3 {
   position: relative;
@@ -137,15 +152,86 @@ section {
   display: inline;
 }
 
-#favesAbout {
+/*  Styling for a little bit more content that is comprised of 'About' pages for the favorites, detail, signup and search pages,
+                 as there is not much content on those as of yet...  */
+
+#favesAbout, #searchAbout {
   font-size: 24px;
   background-color: #ccf;
   color: #3cc;
   padding: 10px;
-  margin-top: 100px;
-  box-shadow: 1px 2px 2px #666;
+  margin-top: 150px;
+  box-shadow: 1px 2px 3px #666;
   border: 2px solid #3cc;
 }
+
+/*  Attempting to style the image on the detail page  */
+
+#detailDress img {
+  width: 40%;
+  height: 40%;
+  border: 2px solid #3cc;
+  box-shadow: 1px 2px 3px #666;
+  margin-top: 60px;
+}
+
+/*  Styling the content on the detail page and some on the search page, as well */
+
+
+#detailDress, #searchFilter {
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+/*  Styling the content on the detail page so the projects can be rearranged */
+
+
+#sortable { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 60%; 
+}
+
+
+#sortable li { 
+  margin: 0 3px 3px 3px; 
+  padding: 0.4em; 
+  padding-left: 1.5em; 
+  font-size: 1.4em; 
+  height: 18px; 
+}
+
+
+
+#sortable li span { 
+  position: absolute; 
+  margin-left: -1.3em; 
+}
+
+
+.selectable {
+  background-color: #9cf;
+  color: #cc6;
+  border: 2px solid #9cf;
+}
+
+/*  Styling on signup page for header and form - uncertain whether or not to further develop this page  */
+
+#signupHdr {
+  font-size: 20px;
+  background-color: #ccf;
+  color: #3cc;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: 1px 2px 3px #666;
+  border: 2px solid #3cc;
+}
+
+
+/*  General Styling regarding the Jumbotron - currently incomplete, as far as the whole project is concerned...  */
 
 @media screen and (min-width: 768px)
 .jumbotron {

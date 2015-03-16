@@ -21,7 +21,6 @@
   		<div class="container">
     
       		<!-- **** NAVIGATION **** -->
-      		
       		<nav class="navbar navbar-inverse navbar-fixed-top">
 	          <div class="container">
 	            <div class="navbar-header">
@@ -32,6 +31,7 @@
 	                <span class="icon-bar"></span>
 	              </button>
 	              <a class="navbar-brand" href="#"><i>SO</i> Designer Children's Clothing</a>
+	              <a href="index.html">Home</a> | <a href="search.html">New Search</a> | <a href="detail.html">Product Details</a> | <a href="#">Favorites</a> | <a href="login.html">Logout</a>
             	</div>
             	<div id="navbar" class="navbar-collapse collapse">
               		<form class="navbar-form navbar-right">
@@ -39,66 +39,36 @@
               		</form>
       		  	</div>
       		</nav>
+      		
+			<p id="favesAbout">Here, in your Favorites section, you can add as many items as you like while you are shopping. This saves time by allowing you to continue searching, while the selections of interest are safe in your Favorites for later examination.</p>
 
-      		<div class="loginImages">
-	      		<p><img src="images/girl-in-white.jpg" class="girl" alt="SO Girl Model" /></p>
-	      		<p><img src="images/lovely.jpg" class="girl" alt="SO Girl Model" /></p>
-	      		<p><img src="images/boyCute.jpg" class="boy" alt="SO Girl Model" /></p>
-    		</div>
-    
-    		<div id="login" class="col-lg-6 col-sm-4">
-        		<form class="login" action="search.html">
-				
-					<label>Username: </label>
-						<input type="text" name="loginButton" id="username" class="masterTooltip" title="Please Enter A Username" required /> <br>
-			
-			
-					<label>Password: </label>
-						<input type="password" name="loginButton" id="password" class="masterTooltip" title="Please Enter a Password" required  /> <br>
 
-					<form action="search.html">
-						<input type="button" id="logIn" name="login" title="Log In!" class="masterTooltip" value="Log In!" />
-					</form>
-
-				</form>
+		<div id="sortable">
+			<div id="favesdiv1" class="articles selectable">
+					<p><img src="images/DRESSES/bluegreenpurpflowers.jpg" class="girl" alt="SO Girl Model in a stunning blue, green, purple, and flowery dress" /></p>
+					<p class="description">Gorgeous Blue, Green, and Purple Dress with Flowers <br> 
+						Multiple Sizes In Stock <br>
+						$106.49</p>
 			</div>
 
-			<div id="newMember" class="col-lg-6 col-sm-4">
+			<div id="favesdiv2" class="articles selectable">
+					<p><img src="images/SETS/polka-dot.jpg" class="girl" alt="SO Girl Model sporting a lovely red and white polka-dotted summer dress" /></p>
+					<p class="description">Classic style Polka-Dot in Red and White<br> 
+						Girls' Sizes 2-6 In Stock <br>
+						$49.89</p>
+			</div>
+		</div>
+    	
+    		 
 
-				<form class="signup" action="search.html">
-			
-				<p>First Name:
-					<input type="text" name="firstname" id="first" size="15" maxlength="40" />
-				</p>
-			
-				<p>Last Name:
-					<input type="text" name="lastname" id="last" size="15" maxlength="40" />
-				</p>
-			
-				<p>Email:
-					<input type="text" name="email" id="email" size="15" maxlength="40" />
-				</p>
-			
-				<p>Username:
-					<input type="text" name="username" id="username" size="15" maxlength="40" />
-				</p>
-			
-				<p>Password:
-					<input type="text" name="password" id="password" size="15" maxlength="40" />
-				</p>
-
-				<button action="search.html" id="signup" name="signup">Sign Up!</button>
-				
-
-				</form>		
-
-
+    
   		</div>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
     	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/main.js"></script>
 
 	</body>
 </html>

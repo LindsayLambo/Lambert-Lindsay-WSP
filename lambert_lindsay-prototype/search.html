@@ -40,10 +40,34 @@
               </div>
           </nav>
           
+          <h1 id="searchAbout">This is the Search page, which will be the beginning of the shopping experience, using various filters to minimize and select the most relevant search results.</h1>
+          
+        <div id="searchFilter">  
+          <form action="results.html">
+            <p>Search:</p>
+            <input type="search" name="search" />
+            <input type="submit" value="Search" />
+          </form>
+
+          <form action="results.html">
+            <p>Please select the check boxes to filter your results:
+            <br />
+            <input type="checkbox" name="filter" value="Brand" checked="checked" /> Brand
+            <input type="checkbox" name="filter" value="Boys" /> Boys
+            <input type="checkbox" name="filter" value="Girls" /> Girls
+            <input type="checkbox" name="filter" value="Size" checked="checked" /> Size
+            <input type="checkbox" name="filter" value="Color" /> Color
+            <input type="checkbox" name="filter" value="Type" /> Type
+            <input type="checkbox" name="filter" value="Condition" checked="checked" /> Condition
+            <input type="checkbox" name="filter" value="Price" /> Price
+            <input type="checkbox" name="filter" value="Seasonal" /> Seasonal
+            </p>
+          </form>
+
           <div class="searchPics">
             <p><img src="images/lilman.jpg" class="girl" alt="SO Boy Model in a Very Nice Outfit" /></p>
             <p><img src="images/flowing.jpg" class="girl" alt="SO Girl Model in White Clothing" /></p>
-          </div>
+        </div>
 
       		
     
@@ -54,6 +78,7 @@
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
     	<script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
 
 	</body>
 </html>

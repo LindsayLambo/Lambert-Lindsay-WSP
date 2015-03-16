@@ -6,7 +6,7 @@
   		<title>SO Designer Children's Clothing</title>
   		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-     
+
      	<!-- Bootstrap -->
     	<link href="css/bootstrap.min.css" rel="stylesheet">
     	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
@@ -14,14 +14,14 @@
     	<!-- **** layout stylesheet **** -->
     	<link rel="stylesheet" type="text/css" href="css/style.css" />
     	<!--  <link rel="stylesheet" type="text/css" href="css/normalize.css" />  -->
-
+  	
 	</head>
 
 	<body>
   		<div class="container">
     
       		<!-- **** NAVIGATION **** -->
-
+      		
       		<nav class="navbar navbar-inverse navbar-fixed-top">
 	          <div class="container">
 	            <div class="navbar-header">
@@ -32,24 +32,74 @@
 	                <span class="icon-bar"></span>
 	              </button>
 	              <a class="navbar-brand" href="#"><i>SO</i> Designer Children's Clothing</a>
-	              <a href="index.html">Home</a> | <a href="search.html">New Search</a> |<a href="results.html">Search Results</a> | <a href="#">Product Details</a> | <a href="favorites.html">Favorites</a> | <a href="login.html">Logout</a>
             	</div>
             	<div id="navbar" class="navbar-collapse collapse">
               		<form class="navbar-form navbar-right">
                 		<button type="submit" action="login.html" class="btn btn-success">Sign Out</button>
               		</form>
       		  	</div>
-      		</nav>  
+      		</nav>
+
+      		<div>
+	      		<p><img id="login1" src="images/girl-in-white.jpg" class="girl" alt="SO Girl Model" /></p>
+	      		<p><img id="login2" src="images/lovely.jpg" class="girl" alt="SO Girl Model" /></p>
+	      		<p><img id="login3" src="images/boyCute.jpg" class="boy" alt="SO Girl Model" /></p>
+    		</div>
+    
+    		<div id="login" class="col-lg-6 col-sm-4">
+        		<form class="login" action="search.html">
+				
+					<label>Username: </label>
+						<input type="text" name="loginButton" id="username" class="masterTooltip" title="Please Enter A Username" required /> <br>
+			
+			
+					<label>Password: </label>
+						<input type="password" name="loginButton" id="password" class="masterTooltip" title="Please Enter a Password" required  /> <br>
+
+					<form action="search.html">
+						<input type="button" id="logIn" name="login" title="Log In!" class="masterTooltip" value="Log In!" />
+					</form>
+
+				</form>
+			</div>
+
+			<div id="newMember" class="col-lg-6 col-sm-4">
+
+				<form class="signup" action="search.html">
+			
+				<p>First Name:
+					<input type="text" name="firstname" id="first" size="15" maxlength="40" />
+				</p>
+			
+				<p>Last Name:
+					<input type="text" name="lastname" id="last" size="15" maxlength="40" />
+				</p>
+			
+				<p>Email:
+					<input type="text" name="email" id="email" size="15" maxlength="40" />
+				</p>
+			
+				<p>Username:
+					<input type="text" name="username" id="username" size="15" maxlength="40" />
+				</p>
+			
+				<p>Password:
+					<input type="text" name="password" id="password" size="15" maxlength="40" />
+				</p>
+
+				<button action="search.html" id="signup" name="signup">Sign Up!</button>
+				
+
+				</form>		
 
 
-    
-    
   		</div>
 
-  		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
     	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/main.js"></script>
 
 	</body>
 </html>
