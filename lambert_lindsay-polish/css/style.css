@@ -27,6 +27,11 @@ table {
 
   /*  General Styling  */
 
+  $imgborder : 2px solid rgba(51, 204, 204, 1);
+  $box-shadow : 1px 2px 3px rgba(0, 0, 0, .7);
+  $text-shadow : 1px 2px 3px rgba(0, 0, 0, .7);
+
+
   body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #fc6;
@@ -80,6 +85,7 @@ section {
   padding: 10px;
   margin: 10px;
   background-color: #ccf;
+  box-shadow: $box-shadow;
 }
 
 .articles {
@@ -89,7 +95,7 @@ section {
   padding: 5px;
   margin: 5px;
   border: 3px solid #cc6;
-  box-shadow: 1px 2px 3px #666;
+  box-shadow: $box-shadow;
 }
 
 /*  Styling for the button on the index page for signing up as a new member  */
@@ -111,12 +117,13 @@ section {
   margin: 10px;
   float: left;
   font-size: 22px;
+  box-shadow: $box-shadow;
 }
 
 /*  Just moving the headers farther down the page on the results page  */
 
 #bestmatch {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 /*  Styling for the descriptions on the results page  */
@@ -124,10 +131,16 @@ section {
 .description {
   position: relative;
   color: #fc6;
-  font-size: 26px;
+  font-size: 24px;
   padding: 5px;
   margin: 5px;
-  text-shadow: 1px 2px 2px #666;
+  text-shadow: $text-shadow;
+}
+
+h3.namestyles {
+  color: rgba(284, 185, 114, 1);
+  font-size: 28px;
+  text-shadow: $text-shadow;
 }
 
 /*  Styling for the login and new member forms on the login page - I was considering combining them, depending on the requirements.  */
@@ -137,6 +150,7 @@ section {
   border: 2px solid #cc6;
   padding: 5px;
   margin: 5px;
+  box-shadow: $box-shadow;
 }
 
 /*  Attempting to Style the images on the login page  */
@@ -150,25 +164,50 @@ section {
 }
 
 /*  Styling for a little bit more content that is comprised of 'About' pages for the favorites, detail, signup and search pages,
-                 as there is not much content on those as of yet...  */
+                 as there is not much content on those as of yet...Then, adding some effects to the content in the About Sections,
+                 which help guide the users  */
 
 #favesAbout, #searchAbout {
   font-size: 24px;
   background-color: #ccf;
   color: #3cc;
-  padding: 10px;
-  margin-top: 150px;
-  box-shadow: 1px 2px 3px #666;
-  border: 2px solid #3cc;
+  padding: 20px;
+  margin-top: 100px;
+  box-shadow: $box-shadow;
+  border: $imgborder;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 400px;
+  cursor: pointer;
 }
+
+#favesAbout:hover, #searchAbout:hover {
+  white-space: normal;
+  font-size: 24px;
+  background-color: #ccf;
+  color: #3cc;
+  padding: 20px;
+  margin-top: 100px;
+  box-shadow: $box-shadow;
+  border: $imgborder;
+}
+
+
+#searchPics {
+  box-shadow: $box-shadow;
+  border: $imgborder;
+}
+
 
 /*  Attempting to style the image on the detail page  */
 
 #detailDress img {
   width: 40%;
   height: 40%;
-  border: 2px solid #3cc;
-  box-shadow: 1px 2px 3px #666;
+  border: $imgborder;
+  box-shadow: $box-shadow;
   margin-top: 60px;
 }
 
@@ -185,7 +224,7 @@ section {
 /*  Styling the content on the detail page so the projects can be rearranged */
 
 
-#sortable { 
+.sortable { 
   list-style-type: none; 
   margin: 0; 
   padding: 0; 
@@ -193,7 +232,7 @@ section {
 }
 
 
-#sortable li { 
+.sortable li { 
   margin: 0 3px 3px 3px; 
   padding: 0.4em; 
   padding-left: 1.5em; 
@@ -203,7 +242,7 @@ section {
 
 
 
-#sortable li span { 
+.sortable li span { 
   position: absolute; 
   margin-left: -1.3em; 
 }
@@ -223,9 +262,9 @@ section {
   color: #3cc;
   padding: 10px;
   margin-top: 50px;
-  box-shadow: 1px 2px 3px #666;
-  border: 2px solid #3cc;
-}
+  box-shadow: $box-shadow;
+  border: $box-shadow;
+  }
 
 
 /*  General Styling regarding the Jumbotron - currently incomplete, as far as the whole project is concerned...  */

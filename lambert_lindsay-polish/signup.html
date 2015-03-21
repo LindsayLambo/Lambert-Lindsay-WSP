@@ -14,16 +14,15 @@
     	<!-- **** layout stylesheet **** -->
     	<link rel="stylesheet" type="text/css" href="css/style.css" />
     	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600' rel='stylesheet' type='text/css'>
-    	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+      	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     	<!--  <link rel="stylesheet" type="text/css" href="css/normalize.css" />  -->
-  	
+  		
 	</head>
 
 	<body>
   		<div class="container">
     
-      		<!-- **** NAVIGATION **** -->
-      		
+      	<!-- **** NAVIGATION **** -->
       		<nav class="navbar navbar-inverse navbar-fixed-top">
 	          <div class="container">
 	            <div class="navbar-header">
@@ -42,62 +41,44 @@
       		  	</div>
       		</nav>
 
-      		<div>
-	      		<p><img id="login1" src="images/girl-in-white.jpg" class="girl" alt="SO Girl Model" /></p>
-	      		<p><img id="login2" src="images/lovely.jpg" class="girl" alt="SO Girl Model" /></p>
-	      		<p><img id="login3" src="images/boyCute.jpg" class="boy" alt="SO Girl Model" /></p>
-    		</div>
-    
-    		<div id="login" class="col-lg-6 col-sm-4">
-        		<form class="login" action="search.html">
+
+			<div id="signupHdr">
+				<h1>Sign Up Here To Become A Member</h1>
+
+				<p><img src="images/attitude.jpg" class="girl" alt="SO Girl Model" /></p>
+	    
+				<form class="signup" action="">
 				
-					<label>Username: </label>
-						<input type="text" name="loginButton" id="username" class="masterTooltip" title="Please Enter A Username" required /> <br>
-			
-			
-					<label>Password: </label>
-						<input type="password" name="loginButton" id="password" class="masterTooltip" title="Please Enter a Password" required  /> <br>
+					<p>First Name:
+						<input type="text" name="firstname" id="first" size="15" maxlength="40" />
+					</p>
+				
+					<p>Last Name:
+						<input type="text" name="lastname" id="last" size="15" maxlength="40" />
+					</p>
+				
+					<p>Email:
+						<input type="text" name="email" id="email" size="15" maxlength="40" />
+					</p>
+				
+					<p>Username:
+						<input type="text" name="username" id="username" size="15" maxlength="40" />
+					</p>
+				
+					<p>Password:
+						<input type="text" name="password" id="password" size="15" maxlength="40" />
+					</p>
 
 					<form action="search.html">
-						<input type="button" id="logIn" name="login" title="Log In!" class="masterTooltip" value="Log In!" />
+						<input type="button" id="signup" name="signup" title="Sign Up!" class="masterTooltip" value="Sign Up!" />
 					</form>
 
 				</form>
-			</div>
+			</div>			
 
-			<div id="newMember" class="col-lg-6 col-sm-4">
+    	</div>
 
-				<form class="signup" action="search.html">
-			
-				<p>First Name:
-					<input type="text" name="firstname" id="first" size="15" maxlength="40" />
-				</p>
-			
-				<p>Last Name:
-					<input type="text" name="lastname" id="last" size="15" maxlength="40" />
-				</p>
-			
-				<p>Email:
-					<input type="text" name="email" id="email" size="15" maxlength="40" />
-				</p>
-			
-				<p>Username:
-					<input type="text" name="username" id="username" size="15" maxlength="40" />
-				</p>
-			
-				<p>Password:
-					<input type="text" name="password" id="password" size="15" maxlength="40" />
-				</p>
-
-				<button action="search.html" id="signup" name="signup">Sign Up!</button>
-				
-
-				</form>		
-
-
-  		</div>
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
     	<script src="js/bootstrap.min.js"></script>

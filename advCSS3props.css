@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	width: 960px;
+	height: 700px;
+	/* fallback color */
+	background-color: rgba(190, 30, 45, 1); 
+	/* fallback image */
+	background-image: url("images/backup-gradient.png"); 
+	/* Firefox 3.6+ */
+	background-image: -moz-linear-gradient(rgba(190, 30, 45, 1), rgba(142, 56, 64, 1));
+	/* Safari 4+, Chrome 1+ */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from rgba(190, 30, 45, 1), to rgba(142, 56, 64, 1));
+	/* Safari 5.1+, Chrome 10+ */
+	background-image: -webkit-linear-gradient(rgba(190, 30, 45, 1) , rgba(142, 56, 64, 1)); 
+	/* Opera 11.10+ */
+	background-image: -o-linear-gradient(rgba(190, 30, 45, 1, rgba(142, 56, 64, 1));
+}
+	
+
+
+#container {
+	width: 700px;
+	height: 700px;
+	background-color: rgba(187, 136, 140, 1);
+	color: rgba(142, 56, 64, 1);
+	border: 1px solid rgba(142, 56, 64, 1);
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+}
+
+
+header {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	background-color: rgba(32, 33, 55, 1);
+}
+	
+#content {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif 
+}
+	
+	
+	
