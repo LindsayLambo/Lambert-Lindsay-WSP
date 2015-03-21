@@ -37,9 +37,10 @@
             	</div>
             	<div id="navbar" class="navbar-collapse collapse">
               		<form class="navbar-form navbar-right">
-                		<button type="submit" action="login.html" class="btn btn-success">Sign Out</button>
+              			<button type="submit" class="btn btn-success">Sign Out</button>
               		</form>
       		  	</div>
+      		  </div>	
       		</nav>
 
       		<div>
@@ -58,11 +59,9 @@
 					<label>Password: </label>
 						<input type="password" name="loginButton" id="password" class="masterTooltip" title="Please Enter a Password" required  /> <br>
 
-					<form action="search.html">
-						<input type="button" id="logIn" name="login" title="Log In!" class="masterTooltip" value="Log In!" />
-					</form>
-
+						<input type="button" id="logIn" name="login" title="Log In!" class="masterTooltip" value="Log In!">
 				</form>
+
 			</div>
 
 			<div id="newMember" class="col-lg-6 col-sm-4">
@@ -82,26 +81,27 @@
 				</p>
 			
 				<p>Username:
-					<input type="text" name="username" id="username" size="15" maxlength="40" />
+					<input type="text" name="username" id="userName" size="15" maxlength="40" />
 				</p>
 			
 				<p>Password:
-					<input type="text" name="password" id="password" size="15" maxlength="40" />
+					<input type="text" name="password" id="passWord" size="15" maxlength="40" />
 				</p>
 
-				<button action="search.html" id="signup" name="signup">Sign Up!</button>
+				<button formaction="search.html" id="signup" name="signup">Sign Up!</button>
 				
 
 				</form>		
 
 
-  		</div>
+  			</div>
+		</div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     	<!-- Include all compiled plugins (below), or include individual files as needed -->
     	<script src="js/bootstrap.min.js"></script>
     	<script src="js/main.js"></script>
-
+		
 	</body>
 </html>
