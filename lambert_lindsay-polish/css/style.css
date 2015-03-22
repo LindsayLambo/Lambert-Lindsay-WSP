@@ -30,16 +30,17 @@ table {
 
   body {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #fc6;
+    background-color: rgba(255, 204, 102, 1);         /* Yellow */
     padding: 5px;
     margin-top: 30px;
-    line-height: 1.42857143;
+    line-height: 2;
   }
 
   h1, h2 {
     font-family: 'Poiret One', cursive;
-    background-color: #c96;
-    color: #ccf;
+    background-color: rgba(204, 153, 102, 1);         /* Tan */
+    color: rgba(204, 204, 255, 1);                    /*  Blue-light */
+    color: rgba(204, 204, 255, 1);                    /*  Blue-light */          
     margin: 5px;
     padding: 5px;
   }
@@ -47,19 +48,19 @@ table {
   /* Styling Links */
 
 a:link {
-  color: #3cc;
+  color: rgba(51, 204, 204, 1);                        /*  Teal */
   text-decoration: none;
 }
-a:visited {
-  color: #9cf;
+a:visited { 
+  color: rgba(153, 204, 255, 1);                       /*  Blue-medium */ 
 }
 a:hover {
-  color: #ccf;
+  color: rgba(204, 204, 255, 1);                       /*  Blue-light */
   text-decoration: underline;
-  background-color: rgba(255, 204, 102, .5);
+  background-color: rgba(255, 204, 102, .75);          /* Yellow */
 }
 a:active {
-  color: #3cc;
+  color: rgba(51, 204, 204, 1);                        /*  Teal */
   text-decoration: underline;
 }
 
@@ -69,7 +70,7 @@ a:active {
   padding: 30px 15px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #c96;
+  background-color: rgba(204, 153, 102, 1);             /* Tan */
 }
 
 
@@ -80,25 +81,25 @@ section {
   position: static;
   padding: 10px;
   margin: 10px;
-  background-color: #ccf;
+  background-color: rgba(204, 204, 255, 1);             /*  Blue-light */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
 }
 
 .articles {
   width:80%;
-  background-color: #9cf;
-  color: #cc6;
+  background-color: rgba(153, 204, 255, 1);             /*  Blue-medium */
+  color: rgba(255, 169, 75, 1);                         /* Orange */
   padding: 5px;
   margin: 5px;
-  border: 3px solid rgba(224, 185, 114, 1);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  border: 3px solid rgba(255, 169, 75, 1);              /* Orange */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);            /*  Black */
 }
 
 /*  Styling for the button on the index page for signing up as a new member  */
 
 #register {
-  background-color: rgba(224, 185, 114, 1);
-  color: #3cc;
+  background-color: rgba(255, 169, 75, 1);              /* Orange */
+  color: rgba(51, 204, 204, 1);                         /*  Teal */
   padding: 10px;
   margin: 5px;
   font-size: 22px;
@@ -113,7 +114,7 @@ section {
   margin: 10px;
   float: left;
   font-size: 22px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);              /*  Black */
 }
 
 /*  Just moving the headers farther down the page on the results page  */
@@ -126,27 +127,27 @@ section {
 
 .description {
   position: relative;
-  color: #fc6;
+  color: rgba(255, 204, 102, .75);                          /* Yellow */
   font-size: 24px;
   padding: 5px;
   margin: 5px;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Black */
 }
 
 h3.namestyles {
-  color: rgba(224, 185, 114, 1);
+  color: rgba(255, 169, 75, 1);                             /* Orange */  
   font-size: 28px;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Black */
 }
 
 /*  Styling for the login and new member forms on the login page - I was considering combining them, depending on the requirements.  */
 
 #login, #newMember {
   font-size: 20px;
-  border: 2px solid #cc6;
+  border: 2px solid rgba(255, 169, 75, 1);                    /* Orange */  
   padding: 5px;
   margin: 5px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
 }
 
 /*  Attempting to Style the images on the login page  */
@@ -165,12 +166,12 @@ h3.namestyles {
 
 #favesAbout, #searchAbout {
   font-size: 24px;
-  background-color: #ccf;
-  color: #3cc;
+  background-color: rgba(204, 204, 255, 1);                 /*  Blue-light */
+  color: rgba(51, 204, 204, 1);                             /*  Teal */
   padding: 20px;
   margin-top: 75px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
-  border: 2px solid rgba(51, 204, 204, 1);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
+  border: 2px solid rgba(51, 204, 204, 1);                    /*  Teal */
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -181,18 +182,18 @@ h3.namestyles {
 #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
   font-size: 24px;
-  background-color: #ccf;
-  color: #3cc;
+  background-color: rgba(204, 204, 255, 1);                 /*  Blue-light */
+  color: rgba(51, 204, 204, 1);                             /*  Teal */
   padding: 20px;
   margin-top: 75px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
   border: 2px solid rgba(51, 204, 204, 1);
 }
 
 
 #searchPics {
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
-  border: 2px solid rgba(51, 204, 204, 1);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
+  border: 2px solid rgba(51, 204, 204, 1);                     /*  Teal */
 }
 
 
@@ -201,8 +202,8 @@ h3.namestyles {
 #detailDress img {
   width: 40%;
   height: 40%;
-  border: 2px solid rgba(51, 204, 204, 1);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
   margin-top: 60px;
 }
 
@@ -215,9 +216,44 @@ h3.namestyles {
   margin: 5px;
 }
 
+/*  Styling the content on the search page by changing the appearance of a checkbox form and the search filter  */
+
+
+#searchFilter, .searchpgform {
+
+}
 
 /*  Styling the content on the detail page so the projects can be rearranged */
 
+
+#detailpg {
+  width: 90%;
+  background: rgba(204, 204, 255, 1);                           /* Blue-light */
+  padding: 10px;
+  margin:10px;
+  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+}
+
+.detaildescript {
+  width: 400px;
+  font-size: 18px;
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  background: rgba(255, 169, 75, 1);                            /* Orange */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+}
+
+#detailpgcontent {
+  float: left;
+  width: 20%;
+  margin: 50px 10px 10px 10px;
+}
+
+#detailDress {
+  float: left;
+  width: 70%;
+  margin: 10px;
+}
 
 .sortable { 
   list-style-type: none; 
@@ -225,9 +261,30 @@ h3.namestyles {
   padding: 0; 
   width: 60%; 
 }
-
-
 .sortable li { 
+  margin: 0 3px 3px 3px; 
+  padding: 0.4em; 
+  padding-left: 1.5em; 
+  font-size: 1.4em; 
+  height: 18px;
+}
+.sortable li span { 
+  position: absolute; 
+  margin-left: -1.3em; 
+}
+
+
+.selectable {
+  background-color: rgba(153, 204, 255, 1);             /*  Blue-medium */
+  color: rgba(224, 185, 114, 1);                        /*  Orange */ 
+  border: 2px solid rgba(224, 185, 114, 1);             /*  Orange */ 
+}
+
+
+
+
+
+/* .sortable li { 
   margin: 0 3px 3px 3px; 
   padding: 0.4em; 
   padding-left: 1.5em; 
@@ -244,28 +301,28 @@ h3.namestyles {
 
 
 .selectable {
-  background-color: #9cf;
-  color: rgba(224, 185, 114, 1);
-  border: 2px solid rgba(224, 185, 114, 1);
-}
+  background-color: rgba(153, 204, 255, 1);               -Blue-medium- 
+  color: rgba(224, 185, 114, 1);                           -Orange-  
+  border: 2px solid rgba(224, 185, 114, 1);                -Orange- 
+} */
 
 /*  Styling on signup page for header and form - uncertain whether or not to further develop this page  */
 
 #signupHdr {
   font-size: 20px;
-  background-color: #ccf;
-  color: #3cc;
+  background-color: rgba(204, 204, 255, 1);               /*  Blue-light */
+  color: rgba(51, 204, 204, 1);                           /*  Teal */
   padding: 10px;
   margin-top: 50px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
-  border: 2px solid rgba(51, 204, 204, 1);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);              /*  Black */
+  border: 2px solid rgba(51, 204, 204, 1);                /*  Teal */
   }
 
 button.btn.btn-success {
-  color: rgba(204, 153, 102, 1);
-  background: rgba(51, 204, 204, 1);
-  border: 1px solid rgba(204, 153, 102, 1);
-  box-shadow: 1px 2px 3px rgba(204, 153, 102, .6);
+  color: rgba(204, 153, 102, 1);                           /*  Tan */
+  background: rgba(51, 204, 204, 1);                       /*  Teal */
+  border: 1px solid rgba(204, 153, 102, 1);                /*  Tan */
+  box-shadow: 1px 2px 3px rgba(204, 153, 102, .6);         /*  Tan */
 }
 
 /*  General Styling regarding the Jumbotron - currently incomplete, as far as the whole project is concerned...  */
