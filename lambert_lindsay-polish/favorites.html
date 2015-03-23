@@ -14,7 +14,8 @@
     	<!-- **** layout stylesheet **** -->
     	<link rel="stylesheet" type="text/css" href="css/style.css" />
     	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600' rel='stylesheet' type='text/css'>
-      	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />  
     	<!--  <link rel="stylesheet" type="text/css" href="css/normalize.css" />  -->
   	
 	</head>
@@ -33,7 +34,7 @@
 	                <span class="icon-bar"></span>
 	              </button>
 	              <a class="navbar-brand" href="#"><i>SO</i> Designer Children's Clothing</a>
-	              <a href="index.html">Home</a> | <a href="search.html">New Search</a> | <a href="detail.html">Product Details</a> | <a href="#">Favorites</a> | <a href="login.html">Logout</a>
+	              <a href="index.html">Home</a> | <a href="search.html">New Search</a> | <a href="detail.html">Product Details</a> | <a href="#">Favorites</a> 
             	</div>
             	<div id="navbar" class="navbar-collapse collapse">
               		<form class="navbar-form navbar-right">
@@ -47,18 +48,24 @@
 
 
 		<div id="sortable">
-			<div id="favesdiv1" class="articles selectable">
+			<div id="favesdiv1" class="articles sortable selectable">
 					<p><img src="images/DRESSES/bluegreenpurpflowers.jpg" class="girl" alt="SO Girl Model in a stunning blue, green, purple, and flowery dress" /></p>
 					<p class="description">Gorgeous Blue, Green, and Purple Dress with Flowers <br> 
 						Multiple Sizes In Stock <br>
 						$106.49</p>
+            <form class="mycartbtns">
+                <button type="submit" action="mycart.html" class="btn btn-success">Add To My Cart</button>
+            </form>
 			</div>
 
-			<div id="favesdiv2" class="articles selectable">
+			<div id="favesdiv2" class="articles sortable selectable">
 					<p><img src="images/SETS/polka-dot.jpg" class="girl" alt="SO Girl Model sporting a lovely red and white polka-dotted summer dress" /></p>
 					<p class="description">Classic style Polka-Dot in Red and White<br> 
 						Girls' Sizes 2-6 In Stock <br>
 						$49.89</p>
+            <form class="mycartbtns">
+                <button type="submit" action="mycart.html" class="btn btn-success">Add To My Cart</button>
+            </form>
 			</div>
 		</div>
     	

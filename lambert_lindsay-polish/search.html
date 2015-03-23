@@ -15,6 +15,7 @@
     	<link rel="stylesheet" type="text/css" href="css/style.css" />
       <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="css/960_12_col.css" />
     	<!--  <link rel="stylesheet" type="text/css" href="css/normalize.css" />  -->
 
 	</head>
@@ -33,7 +34,7 @@
                   <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#"><i>SO</i> Designer Children's Clothing</a>
-                <a href="index.html">Home</a> | <a href="#">New Search</a> |<a href="results.html">Search Results</a> | <a href="detail.html">Product Details</a> | <a href="favorites.html">Favorites</a> | <a href="login.html">Logout</a> | <a href="mycart.html">My Cart</a>
+                <a href="index.html">Home</a> | <a href="#">New Search</a> |<a href="results.html">Search Results</a> | <a href="detail.html">Product Details</a> | <a href="favorites.html">Favorites</a> | <a href="mycart.html">My Cart</a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                   <form class="navbar-form navbar-right">
@@ -48,10 +49,10 @@
           <form action="results.html">
             <p>Search:</p>
             <input type="search" name="search" />
-            <input type="submit" value="Search" />
+            <input id="searchbtn" type="submit" value="Search" />
           </form>
 
-          <form action="results.html">
+          <form action="results.html" class="searchpgform">
             <p>Please select the check boxes to filter your results:
             <br />
             <input type="checkbox" name="filter" value="Brand" checked="checked" /> Brand
@@ -65,10 +66,13 @@
             <input type="checkbox" name="filter" value="Seasonal" /> Seasonal
             </p>
           </form>
-
-          <div class="searchPics">
-            <p><img src="images/lilman.jpg" class="boy" alt="SO Boy Model in a Very Nice Outfit" /></p>
-            <p><img src="images/flowing.jpg" class="girl" alt="SO Girl Model in White Clothing" /></p>
+        </div>
+          
+        <div>
+          <p class="searchPics"><img src="images/lilman.jpg" class="boy" alt="SO Boy Model in a Very Nice Outfit" /></p>
+          <p class="searchPics"><img src="images/flowing.jpg" class="girl" alt="SO Girl Model in White Clothing" /></p>
+          <p class="searchPics"><img src="images/ADS/burberry-ad.jpg" href="http://www.burberry.com" class="ads" alt="Burberry Ad" /></p>
+          <p class="searchPics"><img src="images/ADS/carters-ad.jpg" href="http://www.carters.com" class="ads" alt="Carter's Ad" /></p>
         </div>
 
       		
