@@ -44,13 +44,14 @@
       		  </div>	
       		</nav>
 
-      		<div>
-	      		<p><img id="login1" src="images/girl-in-white.jpg" class="girl" alt="SO Girl Model" /></p>
-	      		<p><img id="login2" src="images/lovely.jpg" class="girl" alt="SO Girl Model" /></p>
-	      		<p><img id="login3" src="images/boyCute.jpg" class="boy" alt="SO Girl Model" /></p>
+      		<div id="loginimgs">
+	      		<p><img src="images/girl-in-white.jpg" class="girl" alt="SO Girl Model" /></p>
+	      		<p><img src="images/lovely.jpg" class="girl" alt="SO Girl Model" /></p>
+	      		<p><img src="images/boyCute.jpg" class="boy" alt="SO Boy Model" /></p>
     		</div>
     
     		<div id="login" class="col-lg-6 col-sm-4">
+    			<h1>Login</h1>
         		<form class="login" action="search.html">
 				
 					<label>Username: </label>
@@ -60,36 +61,38 @@
 					<label>Password: </label>
 						<input type="password" name="loginButton" id="password" class="masterTooltip" title="Please Enter a Password" required  /> <br>
 
-						<input type="button" id="logIn" name="login" title="Log In!" class="masterTooltip" value="Log In!">
+						<button formaction="index.html" id="logIn" name="login" class="masterTooltip" title="Log Into Your Account">Sign Up!</button>
 				</form>
 
 			</div>
 
 			<div id="newMember" class="col-lg-6 col-sm-4">
 
+				<h2>Sign Up</h2>
+
 				<form class="signup" action="search.html">
 			
 				<p>First Name:
-					<input type="text" name="firstname" id="first" size="15" maxlength="40" />
+					<input type="text" class="masterTooltip" title="Enter Your First Name" name="firstname" id="first" size="15" maxlength="40" />
 				</p>
 			
 				<p>Last Name:
-					<input type="text" name="lastname" id="last" size="15" maxlength="40" />
+					<input type="text" class="masterTooltip" title="Enter Your Last Name" name="lastname" id="last" size="15" maxlength="40" />
 				</p>
 			
 				<p>Email:
-					<input type="text" name="email" id="email" size="15" maxlength="40" />
+					<input type="text" class="masterTooltip" title="Enter Your Email Address" name="email" id="email" size="15" maxlength="40" required />
 				</p>
 			
 				<p>Username:
-					<input type="text" name="username" id="userName" size="15" maxlength="40" />
+					<input type="text" class="masterTooltip" title="Enter A Username" name="username" id="userName" size="15" maxlength="40" required />
 				</p>
 			
 				<p>Password:
-					<input type="text" name="password" id="passWord" size="15" maxlength="40" />
+					<input type="password" class="masterTooltip" title="Enter a Password" name="password" id="passWord" size="15" maxlength="40" required />
 				</p>
 
-				<button formaction="search.html" id="signup" name="signup">Sign Up!</button>
+				<button formaction="search.html" id="signup" class="masterTooltip" title="Sign Up Today!" name="signup">Sign Up!</button>
 				
 
 				</form>		
