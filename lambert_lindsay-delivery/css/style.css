@@ -30,7 +30,7 @@ table {
 
   body {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: rgba(255, 204, 102, 1);         /* Yellow */
+    background: rgba(255, 204, 102, 1);                         /* Yellow */
     padding: 5px;
     margin-top: 30px;
     line-height: 2;
@@ -38,31 +38,30 @@ table {
 
   h1, h2 {
     font-family: 'Poiret One', cursive;
-    background-color: rgba(204, 153, 102, 1);         /* Tan */
-    color: rgba(204, 204, 255, 1);                    /*  Blue-light */
-    color: rgba(204, 204, 255, 1);                    /*  Blue-light */          
+    background-color: rgba(204, 153, 102, 1);                   /* Tan */
+    color: rgba(204, 204, 255, 1);                              /*  Blue-light */          
     margin: 5px;
     padding: 5px;
     border-radius: 4px 4px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);              /*  Black */
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
   }
 
   /* Styling Links */
 
 a:link {
-  color: rgba(51, 204, 204, 1);                        /*  Teal */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
   text-decoration: none;
 }
 a:visited { 
-  color: rgba(153, 204, 255, 1);                       /*  Blue-medium */ 
+  color: rgba(153, 204, 255, 1);                                /*  Blue-medium */ 
 }
 a:hover {
-  color: rgba(204, 204, 255, 1);                       /*  Blue-light */
+  color: rgba(204, 204, 255, 1);                                /*  Blue-light */
   text-decoration: underline;
-  background-color: rgba(255, 204, 102, .75);          /* Yellow */
+  background-color: rgba(255, 204, 102, .75);                   /* Yellow */
 }
 a:active {
-  color: rgba(51, 204, 204, 1);                        /*  Teal */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
   text-decoration: underline;
 }
 
@@ -72,7 +71,7 @@ a:active {
   padding: 30px 15px;
   margin-top: 75px;
   color: inherit;
-  background-color: rgba(204, 153, 102, 1);             /* Tan */
+  background-color: rgba(204, 153, 102, 1);                     /* Tan */
 }
 
 /*   Tooltips styling   */
@@ -80,11 +79,11 @@ a:active {
 .tooltip {
   display: none;
   position: absolute;
-  border: 1px solid rgba(153, 204, 255, 1);             /*  Blue-medium */
-  background-color: rgba(204, 153, 102, 1);             /* Tan */
+  border: 1px solid rgba(153, 204, 255, 1);                     /*  Blue-medium */
+  background-color: rgba(204, 153, 102, 1);                     /* Tan */
   border-radius: 4px;
   padding: 10px;
-  color: rgba(153, 204, 255, 1);                        /*  Blue-medium */
+  color: rgba(153, 204, 255, 1);                                /*  Blue-medium */
   font-size: 16px;
 }
 
@@ -95,33 +94,33 @@ section {
   position: static;
   padding: 10px;
   margin: 10px;
-  background-color: rgba(204, 204, 255, 1);             /*  Blue-light */
+  background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
 }
 
 .articles {
   width:80%;
-  background-color: rgba(153, 204, 255, 1);             /*  Blue-medium */
-  color: rgba(255, 169, 75, 1);                         /* Orange */
+  background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
+  color: rgba(255, 169, 75, 1);                                 /* Orange */
   padding: 5px;
   margin: 5px;
-  border: 3px solid rgba(255, 169, 75, 1);              /* Orange */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);            /*  Black */
+  border: 3px solid rgba(255, 169, 75, 1);                      /* Orange */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 
 /*  Styling for the 'About' section on the index page */
 
 #about {
-  color: rgba(51, 204, 204, 1);                           /*  Teal */;
-  background: rgba(255, 169, 75, 1);                      /* Orange */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */;
+  background: rgba(255, 169, 75, 1);                            /* Orange */
   position: relative;
   padding: 5px;
   margin: 10px;
   left: 360px;
   top: -710px;
   font-size: 22px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);              /*  Black */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 /*  Just moving the headers farther down the page on the results page  */
@@ -134,29 +133,29 @@ section {
 
 .description {
   position: relative;
-  color: rgba(255, 204, 102, .75);                          /* Yellow */
+  color: rgba(255, 204, 102, .75);                              /* Yellow */
   font-size: 24px;
   padding: 5px;
   margin: 5px;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Black */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 h3.namestyles {
-  color: rgba(255, 169, 75, 1);                             /* Orange */  
+  color: rgba(255, 169, 75, 1);                                 /* Orange */  
   font-size: 28px;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Black */
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 /*  Styling for the login and new member forms on the login page - I was considering combining them, depending on the requirements.  */
 
 #login, #newMember {
   font-size: 20px;
-  color: rgba(51, 204, 204, 1);                               /*  Teal */
-  border: 2px solid rgba(255, 169, 75, 1);                    /* Orange */  
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  border: 2px solid rgba(255, 169, 75, 1);                      /* Orange */  
   padding: 5px;
   margin: 15px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 div#login {
@@ -172,19 +171,19 @@ form.login {
 #loginimgs {
   margin-top: 120px;
   float: left;
-  border: 2px solid rgba(255, 169, 75, 1);                    /* Orange */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
+  border: 2px solid rgba(255, 169, 75, 1);                      /* Orange */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
   padding: 10px;
-  background: rgba(255, 204, 102, .75);                       /* Yellow */
+  background: rgba(255, 204, 102, .75);                         /* Yellow */
   margin: 10px;
 }
 
 img.boy, img.girl, img.ads {
   top: 60px;
-  border: 2px solid rgba(51, 204, 204, 1);                    /*  Teal */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
+  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
   padding: 10px;
-  background: rgba(255, 204, 102, .75);                       /* Yellow */
+  background: rgba(255, 204, 102, .75);                         /* Yellow */
   margin: 10px;
 }
 
@@ -194,12 +193,12 @@ img.boy, img.girl, img.ads {
 
 #favesAbout, #searchAbout {
   font-size: 24px;
-  background-color: rgba(204, 204, 255, 1);                   /*  Blue-light */
-  color: rgba(51, 204, 204, 1);                               /*  Teal */
+  background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
   padding: 20px;
   margin-top: 75px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
-  border: 2px solid rgba(51, 204, 204, 1);                    /*  Teal */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -211,12 +210,12 @@ img.boy, img.girl, img.ads {
 #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
   font-size: 24px;
-  background-color: rgba(51, 204, 204, 1);                  /*  Teal */
-  color: rgba(204, 204, 255, 1);                            /*  Blue-light */
+  background-color: rgba(51, 204, 204, 1);                      /*  Teal */
+  color: rgba(204, 204, 255, 1);                                /*  Blue-light */
   padding: 20px;
   margin-top: 75px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                /*  Black */
-  border: 2px solid rgba(204, 204, 255, 1);                 /*  Blue-light */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  border: 2px solid rgba(204, 204, 255, 1);                     /*  Blue-light */
 }
 
 
@@ -232,6 +231,8 @@ img.boy, img.girl, img.ads {
   height: 40%;
   border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  padding: 10px;
+  background: rgba(255, 204, 102, .75);                         /* Yellow */
   margin-top: 60px;
 }
 
@@ -251,27 +252,27 @@ img.boy, img.girl, img.ads {
 
 
 #searchFilter, .searchpgform {
-  color: rgba(204, 153, 102, 1);                           /*  Tan */
-  background: rgba(51, 204, 204, 1);                       /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                /*  Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Tan */
+  color: rgba(204, 153, 102, 1);                                /*  Tan */
+  background: rgba(51, 204, 204, 1);                            /*  Teal */
+  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Tan */
   margin: 10px;
   padding: 10px;
   border-radius: 6px; 
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);              /*  Black */
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 #searchFilter {
-  color: rgba(204, 153, 102, 1);                           /*  Tan */
-  background: rgba(51, 204, 204, 1);                       /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                /*  Tan */
+  color: rgba(204, 153, 102, 1);                                /*  Tan */
+  background: rgba(51, 204, 204, 1);                            /*  Teal */
+  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
   border-radius: 6px; 
 }
 
 .searchpgform {
-  color: rgba(51, 204, 204, 1);                            /*  Teal */
-  background: rgba(204, 153, 102, 1);                      /*  Tan */
-  border: 1px solid rgba(51, 204, 204, 1);                 /*  Teal */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  background: rgba(204, 153, 102, 1);                           /*  Tan */
+  border: 1px solid rgba(51, 204, 204, 1);                      /*  Teal */
   border-radius: 6px; 
 }
 
@@ -293,13 +294,13 @@ img.boy, img.girl, img.ads {
   width: 400px;
   position: relative;
   font-size: 18px;
-  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  color: rgba(204, 204, 255, 1);                                /* Blue-light */
   border-radius: 6px; 
-  background: rgba(255, 169, 75, 1);                            /* Orange */
+  background: rgba(204, 153, 102, 1);                           /* Tan */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
   margin: 10px;
   padding: 10px;
-  border: rgba(204, 153, 102, 1);                                /* Tan */
+  border: rgba(204, 153, 102, 1);                               /* Tan */
 }
 
 #detailpgcontent {
@@ -310,17 +311,17 @@ img.boy, img.girl, img.ads {
   margin: 50px 10px 10px 10px;
   border-radius: 6px; 
   padding: 10px;
-  border: rgba(204, 153, 102, 1);                                /* Tan */
+  border: rgba(204, 153, 102, 1);                               /* Tan */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  background: rgba(255, 204, 102, .75);                          /* Yellow */
+  background: rgba(255, 204, 102, .75);                         /* Yellow */
 }
 
 #detailpgcontent h2 {
-  border: rgba(204, 153, 102, 1);                                /* Tan */
-  color: rgba(204, 204, 204, 1);                                 /*  Grey-light */
+  border: rgba(204, 153, 102, 1);                               /* Tan */
+  color: rgba(204, 153, 102, 1);                                /* Tan */
   border-radius: 6px; 
   padding: 5px;
-  background: rgba(51, 204, 204, 1);                             /*  Teal */
+  background: rgba(204, 204, 255, 1);                           /* Blue-light */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
 }
 
@@ -352,9 +353,9 @@ img.boy, img.girl, img.ads {
 
 
 .selectable {
-  background-color: rgba(153, 204, 255, 1);             /*  Blue-medium */
-  color: rgba(224, 185, 114, 1);                        /*  Orange */ 
-  border: 2px solid rgba(224, 185, 114, 1);             /*  Orange */ 
+  background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
+  color: rgba(224, 185, 114, 1);                                /*  Orange */ 
+  border: 2px solid rgba(224, 185, 114, 1);                     /*  Orange */ 
 }
 
 
@@ -362,36 +363,36 @@ img.boy, img.girl, img.ads {
 
 #signupHdr {
   font-size: 20px;
-  background-color: rgba(204, 204, 255, 1);               /*  Blue-light */
-  color: rgba(51, 204, 204, 1);                           /*  Teal */
+  background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
   padding: 10px;
   margin-top: 50px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);              /*  Black */
-  border: 2px solid rgba(51, 204, 204, 1);                /*  Teal */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
 }
 
 button.btn.btn-success, input#mycartbtn.masterTooltip, #addfavorites, #searchbtn, button#logIn, button#signup, button#register {
   font-size: 18px;
-  color: rgba(204, 153, 102, 1);                           /*  Tan */
-  background: rgba(51, 204, 204, 1);                       /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                /*  Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Tan */
+  color: rgba(204, 153, 102, 1);                                /*  Tan */
+  background: rgba(51, 204, 204, 1);                            /*  Teal */
+  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Tan */
   margin: 10px;
   padding: 10px;
   border-radius: 6px; 
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);              /*  Black */
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 
 button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites:hover, #searchbtn:hover, button#logIn:hover, button#signup:hover, button#register:hover {
-  color: rgba(51, 204, 204, 1);                            /*  Teal */
-  background: rgba(204, 153, 102, 1);                      /*  Tan */
-  border: 1px solid rgba(51, 204, 204, 1);                 /*  Teal */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Teal */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  background: rgba(204, 153, 102, 1);                           /*  Tan */
+  border: 1px solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Teal */
   margin: 10px;
   padding: 10px;
   border-radius: 6px;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);              /*  Black */
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 input#mycartbtn.masterTooltip {
@@ -401,20 +402,20 @@ input#mycartbtn.masterTooltip {
 
 #mycartitems {
   position: absolute;
-  color: rgba(204, 153, 102, 1);                           /*  Tan */
-  background: rgba(51, 204, 204, 1);                       /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                /*  Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);               /*  Black */
+  color: rgba(204, 153, 102, 1);                                /*  Tan */
+  background: rgba(51, 204, 204, 1);                            /*  Teal */
+  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
   margin: 10px;
   padding: 10px;
   border-radius: 6px; 
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);              /*  Black */
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 #mycartitems:hover {
-  color: rgba(51, 204, 204, 1);                       /*  Teal */
-  background:rgba(204, 153, 102, 1);                  /*  Tan */
-  border: 2px solid rgba(51, 204, 204, 1);            /*  Teal */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  background:rgba(204, 153, 102, 1);                            /*  Tan */
+  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
 }
 
 
