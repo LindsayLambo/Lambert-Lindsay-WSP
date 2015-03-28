@@ -112,8 +112,8 @@ section {
 /*  Styling for the 'About' section on the index page */
 
 #about {
-  color: rgba(51, 204, 204, 1);                                 /*  Teal */;
-  background: rgba(255, 169, 75, 1);                            /* Orange */
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  background: rgba(204, 153, 102, 1);                           /* Tan */
   position: relative;
   padding: 5px;
   margin: 10px;
@@ -121,6 +121,13 @@ section {
   top: -710px;
   font-size: 22px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+}
+
+#about h2 {
+  color: rgba(204, 153, 102, 1);                                /* Tan */
+  background: rgba(51, 204, 204, 1);                            /*  Teal */
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 /*  Just moving the headers farther down the page on the results page  */
@@ -193,7 +200,7 @@ img.boy, img.girl, img.ads {
 
 #favesAbout, #searchAbout {
   font-size: 24px;
-  background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
+  background-color: rgba(204, 153, 102, 1);                     /* Tan */
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
   padding: 20px;
   margin-top: 75px;
@@ -204,6 +211,8 @@ img.boy, img.girl, img.ads {
   white-space: nowrap;
   width: 400px;
   cursor: pointer;
+  text-shadow: #000;                                            /*  Black */
+  opacity: 70%;
 }
 
 
@@ -211,17 +220,21 @@ img.boy, img.girl, img.ads {
   white-space: normal;
   font-size: 24px;
   background-color: rgba(51, 204, 204, 1);                      /*  Teal */
-  color: rgba(204, 204, 255, 1);                                /*  Blue-light */
+  color: rgba(204, 153, 102, 1);                                /* Tan */
   padding: 20px;
   margin-top: 75px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  border: 2px solid rgba(204, 204, 255, 1);                     /*  Blue-light */
+  border: 2px solid rgba(204, 153, 102, 1);                     /* Tan */
+  text-shadow: #000;                                            /*  Black */
+  opacity: 70%;
 }
 
 
 .searchPics {
   float: left;
 }
+
+
 
 
 /*  Attempting to style the image on the detail page  */
@@ -288,6 +301,7 @@ img.boy, img.girl, img.ads {
   margin:10px;
   border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  clear: both;
 }
 
 .detaildescript {
@@ -314,6 +328,7 @@ img.boy, img.girl, img.ads {
   border: rgba(204, 153, 102, 1);                               /* Tan */
   box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
   background: rgba(255, 204, 102, .75);                         /* Yellow */
+  clear: both;                        
 }
 
 #detailpgcontent h2 {
