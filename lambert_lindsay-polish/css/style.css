@@ -100,7 +100,7 @@ section {
 }
 
 .articles {
-  width:80%;
+  width: 80%;
   background-color: rgba(153, 204, 255, 1);             /*  Blue-medium */
   color: rgba(255, 169, 75, 1);                         /* Orange */
   padding: 5px;
