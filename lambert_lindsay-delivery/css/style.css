@@ -118,27 +118,6 @@ a:active {
   font-size: 1em;
 }
 
-/*   Styling the sections and articles on the results page  */
-
-section {
-  width: 75%;
-  position: static;
-  padding: 0.625em;
-  margin: 0.625em;
-  background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
-  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);
-}
-
-.articles {
-  width: 80%;
-  background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
-  color: rgba(255, 169, 75, 1);                                 /* Orange */
-  padding: 0.313em;
-  margin: 0.313em;
-  border: 0.188em solid rgba(255, 169, 75, 1);                  /* Orange */
-  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
-}
-
 
 /*  Styling for the 'About' section on the index page */
 
@@ -161,13 +140,36 @@ section {
   text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);       /*  Black */
 }
 
-/*  Just moving the headers farther down the page on the results page  */
+
+/*   Styling the sections and articles on the results page --------------------------------- */
+
+section {
+  width: 75%;
+  position: static;
+  padding: 0.625em;
+  margin: 0.625em;
+  background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);
+}
+
+.articles {
+  width: 80%;
+  background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
+  color: rgba(255, 169, 75, 1);                                 /* Orange */
+  padding: 0.313em;
+  margin: 0.625em;
+  border: 0.188em solid rgba(255, 169, 75, 1);                  /* Orange */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
+  border-radius: 0.375em;
+}
+
+/*  Just moving the headers farther down the page on the results page ------------------------ */
 
 #bestmatch {
   margin-top: 3.125em;
 }
 
-/*  Styling for the descriptions on the results page  */
+/*  Styling for the descriptions on the results page -------------------------------------- */
 
 .description {
   position: relative;
@@ -245,7 +247,8 @@ img.boy, img.girl, img.ads {
   text-shadow: rgba(0, 0, 0, .7);                               /*  Black */
 }
 
-/*   commented out, because I put the hover classes in the desktop (and above) media queries...
+/*   commented out, because I put the hover classes in the desktop (and above) media queries -------------------
+
 #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
   font-size: 1.525em;
@@ -259,15 +262,6 @@ img.boy, img.girl, img.ads {
 /*} */
  
 
-
-
-.searchPics {
-  float: left;
-}
-
-
-
-
 /*  Attempting to style the image on the detail page  */
 
 #detailDress img {
@@ -280,47 +274,7 @@ img.boy, img.girl, img.ads {
   margin-top: 3.750em;
 }
 
-/*  Styling the content on the detail page and some on the search page, as well */
-
-
-#detailDress, #searchFilter {
-  font-size: 1.375em;
-  padding: 0.625em;
-  margin: 0.625em;
-  border-radius: 0.375em; 
-
-
-}
-
-/*  Styling the content on the search page by changing the appearance of a checkbox form and the search filter  */
-
-
-#searchFilter, .searchpgform {
-  color: rgba(204, 153, 102, 1);                                /*  Tan */
-  background: rgba(51, 204, 204, 1);                            /*  Teal */
-  border: 0.063em solid rgba(204, 153, 102, 1);                 /*  Tan */
-  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Tan */
-  margin: 0.625em;
-  padding: 0.625em;
-  border-radius: 0.375em; 
-  text-shadow: 0.063em 0.125em 0.125em rgba(0, 0, 0, .7);       /*  Black */
-}
-
-#searchFilter {
-  color: rgba(204, 153, 102, 1);                                /*  Tan */
-  background: rgba(51, 204, 204, 1);                            /*  Teal */
-  border: 0.063em solid rgba(204, 153, 102, 1);                 /*  Tan */
-  border-radius: 0.375em; 
-}
-
-.searchpgform {
-  color: rgba(51, 204, 204, 1);                                 /*  Teal */
-  background: rgba(204, 153, 102, 1);                           /*  Tan */
-  border: 0.063em solid rgba(51, 204, 204, 1);                  /*  Teal */
-  border-radius: 0.375em; 
-}
-
-/*  Styling the content on the detail page so the projects can be styled and rearranged  */
+/*  Styling the content on the detail page so the projects can be styled and rearranged --------------------  */
 
 
 #detailpg {
@@ -398,6 +352,49 @@ img.boy, img.girl, img.ads {
   border: 0.125em solid rgba(224, 185, 114, 1);                 /*  Orange */ 
 }
 
+/*  Styling the content on the detail page and some on the search page, as well --------------------------------  */
+
+
+#detailDress, #searchFilter {
+  font-size: 1.375em;
+  padding: 0.625em;
+  margin: 0.625em;
+  border-radius: 0.375em; 
+}
+
+
+/*  Styling the content on the search page by changing the appearance of a checkbox form and the search filter, etc  */
+
+
+#searchFilter, .searchpgform {
+  color: rgba(204, 153, 102, 1);                                /*  Tan */
+  background: rgba(51, 204, 204, 1);                            /*  Teal */
+  border: 0.063em solid rgba(204, 153, 102, 1);                 /*  Tan */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Tan */
+  margin: 0.625em;
+  padding: 0.625em;
+  border-radius: 0.375em; 
+  text-shadow: 0.063em 0.125em 0.125em rgba(0, 0, 0, .7);       /*  Black */
+}
+
+#searchFilter {
+  color: rgba(204, 153, 102, 1);                                /*  Tan */
+  background: rgba(51, 204, 204, 1);                            /*  Teal */
+  border: 0.063em solid rgba(204, 153, 102, 1);                 /*  Tan */
+  border-radius: 0.375em; 
+}
+
+.searchpgform {
+  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  background: rgba(204, 153, 102, 1);                           /*  Tan */
+  border: 0.063em solid rgba(51, 204, 204, 1);                  /*  Teal */
+  border-radius: 0.375em; 
+}
+
+.searchPics {
+  float: left;
+}
+
 
 /*  Styling on signup page for header and form - uncertain whether or not to further develop this page  */
 
@@ -424,7 +421,7 @@ button.btn.btn-success, input#mycartbtn.masterTooltip, #addfavorites, #searchbtn
 }
 
 
-/*   commented out, because I put the hover classes in the desktop (and above) media queries...
+/*   commented out, because I put the hover classes in the desktop (and above) media queries ------------- 
 
 button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites:hover, #searchbtn:hover, button#logIn:hover, button#signup:hover, button#register:hover {
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
@@ -437,7 +434,7 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
   text-shadow: 0.063em 0.125em 0.125em rgba(0, 0, 0, .7);       /*  Black */
  /* } */
 
-
+/* Styling My Cart page -------------------------- */
 
 #mycartitems {
   position: absolute;
@@ -452,18 +449,13 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
 }
 
 /*   commented out, because I put the hover classes in the desktop (and above) media queries...
+
 #mycartitems:hover {
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
 /*  background:rgba(204, 153, 102, 1);                            /*  Tan */
 /*  border: 0.125em solid rgba(51, 204, 204, 1);                  /*  Teal */
 /* } */
 
-
-.articles {
-  margin: 0.625em;
-  padding: 0.313em;
-  border-radius: 0.375em;
-}
 
 #mycartmove {
   width: 55.313em;
@@ -472,39 +464,33 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);
 }
 
-/*  General Styling regarding the Jumbotron - currently incomplete, as far as the whole project is concerned...  */
 
 
-/* The Dreaded Media Queries */
+/* The Dreaded Media Queries --------------------------------------------------  */
 
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px)
-{
 
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) and (orientation: landscape)
-{
+@media only screen and (max-width : 320px) {
 
 }
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
-{
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 
 }
 
 /* iPads (portrait) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
-{
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 
 }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width : 1224px) and (orientation: landscape)
-{
+
+@media only screen and (min-width : 1224px) and (orientation: landscape) {
+  
   #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
   font-size: 1.525em;
@@ -532,13 +518,14 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
   background:rgba(204, 153, 102, 1);                            /*  Tan */
   border: 0.125em solid rgba(51, 204, 204, 1);                  /*  Teal */
-}
+  }
 
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width : 1824px)
-{
+
+@media only screen and (min-width : 1824px) {
+  
   #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
   font-size: 1.525em;
@@ -566,7 +553,7 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
   background:rgba(204, 153, 102, 1);                            /*  Tan */
   border: 0.125em solid rgba(51, 204, 204, 1);                  /*  Teal */
-}
+  }
 
 }
 
