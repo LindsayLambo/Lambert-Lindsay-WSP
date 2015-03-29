@@ -12,10 +12,10 @@
   margin: 0;  
   }  
 h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
-  margin: 20px 0;  
+  margin: 1.250em 0;  
   }  
 li, dd, blockquote {  
-  margin-left: 40px;  
+  margin-left: 2.500em;  
   }  
 table {  
   border-collapse: collapse;  
@@ -62,8 +62,8 @@ table {
   body {
     font-family: 'Josefin Sans', sans-serif;
     background: rgba(255, 204, 102, 1);                         /* Yellow */
-    padding: 5px;
-    margin-top: 30px;
+    padding: 0.313em;
+    margin-top: 1.875em;
     line-height: 2;
   }
 
@@ -71,10 +71,10 @@ table {
     font-family: 'Poiret One', cursive;
     background-color: rgba(204, 153, 102, 1);                   /* Tan */
     color: rgba(204, 204, 255, 1);                              /*  Blue-light */          
-    margin: 5px;
-    padding: 5px;
-    border-radius: 4px 4px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                  /*  Black */
+    margin: 0.313em;
+    padding: 0.313em;
+    border-radius: 0.250em;
+    box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                  /*  Black */
   }
 
   /* Styling Links */
@@ -99,8 +99,8 @@ a:active {
 /*   Styling the Jumbotron on the index page  */
 
 #jumbotron {
-  padding: 30px 15px;
-  margin-top: 75px;
+  padding: 1.875em 0.938em;
+  margin-top: 4.688em;
   color: inherit;
   background-color: rgba(204, 153, 102, 1);                     /* Tan */
 }
@@ -110,12 +110,12 @@ a:active {
 .tooltip {
   display: none;
   position: absolute;
-  border: 1px solid rgba(153, 204, 255, 1);                     /*  Blue-medium */
+  border: 0.063em solid rgba(153, 204, 255, 1);                     /*  Blue-medium */
   background-color: rgba(204, 153, 102, 1);                     /* Tan */
-  border-radius: 4px;
-  padding: 10px;
+  border-radius: 0.250em;
+  padding: 0.625em;
   color: rgba(153, 204, 255, 1);                                /*  Blue-medium */
-  font-size: 16px;
+  font-size: 1em;
 }
 
 /*   Styling the sections and articles on the results page  */
@@ -123,20 +123,20 @@ a:active {
 section {
   width: 75%;
   position: static;
-  padding: 10px;
-  margin: 10px;
+  padding: 0.625em;
+  margin: 0.625em;
   background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);
 }
 
 .articles {
-  width:80%;
+  width: 80%;
   background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
   color: rgba(255, 169, 75, 1);                                 /* Orange */
-  padding: 5px;
-  margin: 5px;
-  border: 3px solid rgba(255, 169, 75, 1);                      /* Orange */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  padding: 0.313em;
+  margin: 0.313em;
+  border: 0.188em solid rgba(255, 169, 75, 1);                      /* Orange */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 
@@ -146,25 +146,25 @@ section {
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
   background: rgba(204, 153, 102, 1);                           /* Tan */
   position: relative;
-  padding: 5px;
-  margin: 10px;
+  padding: 0.313em;
+  margin: 0.625em;
   left: 360px;
   top: -710px;
-  font-size: 22px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  font-size: 1.375em;
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 #about h2 {
   color: rgba(204, 153, 102, 1);                                /* Tan */
   background: rgba(51, 204, 204, 1);                            /*  Teal */
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
+  text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 /*  Just moving the headers farther down the page on the results page  */
 
 #bestmatch {
-  margin-top: 50px;
+  margin-top: 3.125em;
 }
 
 /*  Styling for the descriptions on the results page  */
@@ -172,57 +172,57 @@ section {
 .description {
   position: relative;
   color: rgba(255, 204, 102, .75);                              /* Yellow */
-  font-size: 24px;
-  padding: 5px;
-  margin: 5px;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  font-size: 1.500em;
+  padding: 0.313em;
+  margin: 0.313em;
+  text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                   /*  Black */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 h3.namestyles {
   color: rgba(255, 169, 75, 1);                                 /* Orange */  
-  font-size: 28px;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                   /*  Black */
+  font-size: 1.750em;
+  text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 /*  Styling for the login and new member forms on the login page - I was considering combining them, depending on the requirements.  */
 
 #login, #newMember {
-  font-size: 20px;
+  font-size: 1.250em;
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
-  border: 2px solid rgba(255, 169, 75, 1);                      /* Orange */  
-  padding: 5px;
-  margin: 15px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  border: 0.125em solid rgba(255, 169, 75, 1);                      /* Orange */  
+  padding: 0.313em;
+  margin: 0.938em;
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 div#login {
-  margin-top: 80px;
+  margin-top: 5.00em;
 }
 
 form.login {
-  height: 200px;
-  margin: 10px;
+  height: 12.500em;
+  margin: 0.625em;
 }
 /*  Styling Images  */
 
 #loginimgs {
-  margin-top: 120px;
+  margin-top: 7.500em;
   float: left;
-  border: 2px solid rgba(255, 169, 75, 1);                      /* Orange */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  padding: 10px;
+  border: 0.125em solid rgba(255, 169, 75, 1);                      /* Orange */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  padding: 0.625em;
   background: rgba(255, 204, 102, .75);                         /* Yellow */
-  margin: 10px;
+  margin: 0.625em;
 }
 
 img.boy, img.girl, img.ads {
-  top: 60px;
-  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  padding: 10px;
+  top: 3.750em;
+  border: 0.125em solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  padding: 0.625em;
   background: rgba(255, 204, 102, .75);                         /* Yellow */
-  margin: 10px;
+  margin: 0.625em;
 }
 
 /*  Styling for a little bit more content that is comprised of 'About' pages for the favorites, detail, signup and search pages,
@@ -230,34 +230,32 @@ img.boy, img.girl, img.ads {
                  which help guide the users  */
 
 #favesAbout, #searchAbout {
-  font-size: 24px;
+  font-size: 1.500em;
   background-color: rgba(204, 153, 102, 1);                     /* Tan */
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
-  padding: 20px;
-  margin-top: 75px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
+  padding: 1.250em;
+  margin-top: 4.688em;
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  border: 0.125em solid rgba(51, 204, 204, 1);                      /*  Teal */
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  width: 400px;
+  width: 25.000em;
   cursor: pointer;
-  text-shadow: #000;                                            /*  Black */
-  opacity: 70%;
+  text-shadow: rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 
 #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
-  font-size: 24px;
+  font-size: 1.525em;
   background-color: rgba(51, 204, 204, 1);                      /*  Teal */
   color: rgba(204, 153, 102, 1);                                /* Tan */
-  padding: 20px;
-  margin-top: 75px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  border: 2px solid rgba(204, 153, 102, 1);                     /* Tan */
-  text-shadow: #000;                                            /*  Black */
-  opacity: 70%;
+  padding: 1.250em;
+  margin-top: 4.688em;
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  border: 0.125em solid rgba(204, 153, 102, 1);                     /* Tan */
+  text-shadow: rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 
@@ -271,23 +269,23 @@ img.boy, img.girl, img.ads {
 /*  Attempting to style the image on the detail page  */
 
 #detailDress img {
-  width: 40%;
-  height: 40%;
-  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  padding: 10px;
+  width: 60%;
+  height: 60%;
+  border: 0.125em solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  padding: 0.625em;
   background: rgba(255, 204, 102, .75);                         /* Yellow */
-  margin-top: 60px;
+  margin-top: 3.750em;
 }
 
 /*  Styling the content on the detail page and some on the search page, as well */
 
 
 #detailDress, #searchFilter {
-  font-size: 22px;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 6px; 
+  font-size: 1.375em;
+  padding: 0.625em;
+  margin: 0.625em;
+  border-radius: 0.375em; 
 
 
 }
@@ -298,26 +296,26 @@ img.boy, img.girl, img.ads {
 #searchFilter, .searchpgform {
   color: rgba(204, 153, 102, 1);                                /*  Tan */
   background: rgba(51, 204, 204, 1);                            /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Tan */
-  margin: 10px;
-  padding: 10px;
-  border-radius: 6px; 
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
+  border: 0.063em solid rgba(204, 153, 102, 1);                     /*  Tan */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Tan */
+  margin: 0.625em;
+  padding: 0.625em;
+  border-radius: 0.375em; 
+  text-shadow: 0.063em 0.125em 0.125em rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 #searchFilter {
   color: rgba(204, 153, 102, 1);                                /*  Tan */
   background: rgba(51, 204, 204, 1);                            /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
-  border-radius: 6px; 
+  border: 0.063em solid rgba(204, 153, 102, 1);                     /*  Tan */
+  border-radius: 0.375em; 
 }
 
 .searchpgform {
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
   background: rgba(204, 153, 102, 1);                           /*  Tan */
-  border: 1px solid rgba(51, 204, 204, 1);                      /*  Teal */
-  border-radius: 6px; 
+  border: 0.063em solid rgba(51, 204, 204, 1);                      /*  Teal */
+  border-radius: 0.375em; 
 }
 
 /*  Styling the content on the detail page so the projects can be styled and rearranged  */
@@ -326,51 +324,51 @@ img.boy, img.girl, img.ads {
 #detailpg {
   width: 90%;
   background: rgba(204, 204, 255, 1);                           /* Blue-light */
-  border-radius: 6px; 
-  padding: 10px;
-  margin:10px;
-  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  border-radius: 0.375em; 
+  padding: 0.625em;
+  margin:0.625em;
+  border: 0.125em solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 .detaildescript {
-  width: 400px;
+  width: 25.000em;
   position: relative;
-  font-size: 18px;
+  font-size: 1.125em;
   color: rgba(204, 204, 255, 1);                                /* Blue-light */
-  border-radius: 6px; 
+  border-radius: 0.375em; 
   background: rgba(204, 153, 102, 1);                           /* Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  margin: 10px;
-  padding: 10px;
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  margin: 0.625em;
+  padding: 0.625em;
   border: rgba(204, 153, 102, 1);                               /* Tan */
 }
 
 #detailpgcontent {
   float: right;
-  margin: 50px 10px 10px 10px;
-  border-radius: 6px; 
-  padding: 10px;
+  margin: 3.125em 0.625em 0.625em 0.625em;
+  border-radius: 0.375em; 
+  padding: 0.625em;
   border: rgba(204, 153, 102, 1);                               /* Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
   background: rgba(255, 204, 102, .75);                         /* Yellow */                        
 }
 
 #detailpgcontent h2 {
   border: rgba(204, 153, 102, 1);                               /* Tan */
   color: rgba(204, 153, 102, 1);                                /* Tan */
-  border-radius: 6px; 
-  padding: 5px;
+  border-radius: 0.375em; 
+  padding: 0.313em;
   background: rgba(204, 204, 255, 1);                           /* Blue-light */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
 }
 
 #detailDress {
   float: left;
-  width: 40%;
-  border-radius: 6px; 
-  margin: 10px;
-  padding: 5px;
+  width: 70%;
+  border-radius: 0.375em; 
+  margin: 0.625em;
+  padding: 0.313em;
 }
 
 .sortable { 
@@ -380,11 +378,11 @@ img.boy, img.girl, img.ads {
   width: 60%; 
 }
 .sortable li { 
-  margin: 0 3px 3px 3px; 
+  margin: 0 0.188em 0.188em 0.188em; 
   padding: 0.4em; 
   padding-left: 1.5em; 
   font-size: 1.4em; 
-  height: 18px;
+  height: 1.125em;
 }
 .sortable li span { 
   position: absolute; 
@@ -395,44 +393,44 @@ img.boy, img.girl, img.ads {
 .selectable {
   background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
   color: rgba(224, 185, 114, 1);                                /*  Orange */ 
-  border: 2px solid rgba(224, 185, 114, 1);                     /*  Orange */ 
+  border: 0.125em solid rgba(224, 185, 114, 1);                     /*  Orange */ 
 }
 
 
 /*  Styling on signup page for header and form - uncertain whether or not to further develop this page  */
 
 #signupHdr {
-  font-size: 20px;
+  font-size: 1.250em;
   background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
-  padding: 10px;
-  margin-top: 50px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
+  padding: 0.625em;
+  margin-top: 3.125em;
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  border: 0.125em solid rgba(51, 204, 204, 1);                      /*  Teal */
 }
 
 button.btn.btn-success, input#mycartbtn.masterTooltip, #addfavorites, #searchbtn, button#logIn, button#signup, button#register {
-  font-size: 18px;
+  font-size: 1.125em;
   color: rgba(204, 153, 102, 1);                                /*  Tan */
   background: rgba(51, 204, 204, 1);                            /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Tan */
-  margin: 10px;
-  padding: 10px;
-  border-radius: 6px; 
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
+  border: 0.063em solid rgba(204, 153, 102, 1);                     /*  Tan */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Tan */
+  margin: 0.625em;
+  padding: 0.625em;
+  border-radius: 0.375em; 
+  text-shadow: 0.063em 0.125em 0.125em rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 
 button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites:hover, #searchbtn:hover, button#logIn:hover, button#signup:hover, button#register:hover {
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
   background: rgba(204, 153, 102, 1);                           /*  Tan */
-  border: 1px solid rgba(51, 204, 204, 1);                      /*  Teal */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Teal */
-  margin: 10px;
-  padding: 10px;
-  border-radius: 6px;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
+  border: 0.063em solid rgba(51, 204, 204, 1);                      /*  Teal */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Teal */
+  margin: 0.625em;
+  padding: 0.625em;
+  border-radius: 0.375em;
+  text-shadow: 0.063em 0.125em 0.125em rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 
@@ -441,32 +439,32 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
   position: absolute;
   color: rgba(204, 153, 102, 1);                                /*  Tan */
   background: rgba(51, 204, 204, 1);                            /*  Teal */
-  border: 1px solid rgba(204, 153, 102, 1);                     /*  Tan */
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);                    /*  Black */
-  margin: 10px;
-  padding: 10px;
-  border-radius: 6px; 
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, .7);                   /*  Black */
+  border: 0.063em solid rgba(204, 153, 102, 1);                     /*  Tan */
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);                    /*  Black */
+  margin: 0.625em;
+  padding: 0.625em;
+  border-radius: 0.375em; 
+  text-shadow: 0.063em 0.125em 0.125em rgba(0, 0, 0, .7);                   /*  Black */
 }
 
 #mycartitems:hover {
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
   background:rgba(204, 153, 102, 1);                            /*  Tan */
-  border: 2px solid rgba(51, 204, 204, 1);                      /*  Teal */
+  border: 0.125em solid rgba(51, 204, 204, 1);                      /*  Teal */
 }
 
 
 .articles {
-  margin: 10px;
-  padding: 5px;
-  border-radius: 6px;
+  margin: 0.625em;
+  padding: 0.313em;
+  border-radius: 0.375em;
 }
 
 #mycartmove {
-  width: 885px;
-  margin-top: 100px;
-  border-radius: 6px;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, .7);
+  width: 55.313em;
+  margin-top: 6.250em;
+  border-radius: 0.375em;
+  box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);
 }
 
 /*  General Styling regarding the Jumbotron - currently incomplete, as far as the whole project is concerned...  */
