@@ -1,22 +1,11 @@
-(function($){
-
-/*  Sortable Projects: Projects  ----------------------------------------- */	
- 
-  
-  
-$( "#sortable" ).sortable();
-$( "#sortable" ).disableSelection();
-
-
-/*  Selectable Projects: Projects  ----------------------------------------- */	
-  
-							
-$( ".selectable" ).selectable();
-
-
-/*  Tooltips : Favorites Page  ----------------------------------------- */	
-
-
+(function ($) {
+jQuery.noConflict();
+//  Sortable Projects: Projects  ----------------------------------------- //	
+$("#sortable").sortable();
+$("#sortable").disableSelection();
+//  Selectable Projects: Projects  ----------------------------------------- //	
+$(".selectable").selectable();
+//  Tooltips : Favorites Page  ----------------------------------------- //	
 $('.masterTooltip').hover(function() {
 		var title = $(this).attr('title');
 		$(this).data('tipText', title).removeAttr('title');
@@ -28,4 +17,4 @@ $('.masterTooltip').hover(function() {
 		var mousex = e.pageX + 20;
 		var mousey = e.pageY + 10;
 		$('.tooltip').css({ top: mousey, left: mousex })
-});
+})(jQuery);

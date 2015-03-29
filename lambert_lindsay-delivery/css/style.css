@@ -122,43 +122,41 @@ a:active {
 /*  Styling for the 'About' section on the index page */
 
 #about {
-  color: rgba(51, 204, 204, 1);                                 /*  Teal */
+  color: rgba(153, 204, 255, 1);                                /*  Blue-medium */
   background: rgba(204, 153, 102, 1);                           /* Tan */
-  position: relative;
   padding: 0.313em;
   margin: 0.625em;
-  left: 360px;
-  top: -710px;
-  font-size: 1.375em;
+  font-size: 1.500em;
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
   text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);       /*  Black */
 }
 
 #about h2 {
   color: rgba(204, 153, 102, 1);                                /* Tan */
-  background: rgba(51, 204, 204, 1);                            /*  Teal */
-  text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);       /*  Black */
+  background: rgba(255, 204, 102, .75);                         /* Yellow */
+  text-shadow: none;
 }
+
 
 
 /*   Styling the sections and articles on the results page --------------------------------- */
 
 section {
-  width: 75%;
+  width: 80%;
   position: static;
   padding: 0.625em;
   margin: 0.625em;
-  background-color: rgba(204, 204, 255, 1);                     /*  Blue-light */
+  background-color: rgba(204, 153, 102, 1);                     /* Tan */
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);
 }
 
 .articles {
   width: 80%;
-  background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
-  color: rgba(255, 169, 75, 1);                                 /* Orange */
+  background-color: rgba(204, 153, 102, 1);                     /* Tan */
+  color: rgba(153, 204, 255, 1);                                /*  Blue-medium */
   padding: 0.313em;
   margin: 0.625em;
-  border: 0.188em solid rgba(255, 169, 75, 1);                  /* Orange */
+  border: 0.188em solid rgba(204, 153, 102, 1);                 /* Tan */
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
   border-radius: 0.375em;
 }
@@ -167,13 +165,15 @@ section {
 
 #bestmatch {
   margin-top: 3.125em;
+  background-color: rgba(153, 204, 255, 1);                                /*  Blue-medium */
+  color: rgba(204, 153, 102, 1);                                           /* Tan */
 }
 
 /*  Styling for the descriptions on the results page -------------------------------------- */
 
 .description {
   position: relative;
-  color: rgba(255, 204, 102, .75);                              /* Yellow */
+  color: rgba(204, 153, 102, 1);                                /* Tan */
   font-size: 1.500em;
   padding: 0.313em;
   margin: 0.313em;
@@ -182,7 +182,7 @@ section {
 }
 
 h3.namestyles {
-  color: rgba(255, 169, 75, 1);                                 /* Orange */  
+  color: rgba(204, 153, 102, 1);                                /* Tan */  
   font-size: 1.750em;
   text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);       /*  Black */
 }
@@ -214,17 +214,16 @@ form.login {
   border: 0.125em solid rgba(255, 169, 75, 1);                  /* Orange */
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
   padding: 0.625em;
-  background: rgba(255, 204, 102, .75);                         /* Yellow */
-  margin: 0.625em;
+  background: rgba(252, 251, 251, .75);                         /* Light */
 }
 
 img.boy, img.girl, img.ads {
   top: 3.750em;
   border: 0.125em solid rgba(51, 204, 204, 1);                  /*  Teal */
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
-  padding: 0.625em;
-  background: rgba(255, 204, 102, .75);                         /* Yellow */
-  margin: 0.625em;
+  padding: 0.313em;
+  background: rgba(252, 251, 251, .75);                         /* Light */
+  margin: 0.313em;
 }
 
 /*  Styling for a little bit more content that is comprised of 'About' pages for the favorites, detail, signup and search pages,
@@ -315,7 +314,7 @@ img.boy, img.girl, img.ads {
   color: rgba(204, 153, 102, 1);                                /* Tan */
   border-radius: 0.375em; 
   padding: 0.313em;
-  background: rgba(204, 204, 255, 1);                           /* Blue-light */
+  background: rgba(153, 204, 255, 1);                           /*  Blue-medium */
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
 }
 
@@ -325,6 +324,7 @@ img.boy, img.girl, img.ads {
   border-radius: 0.375em; 
   margin: 0.625em;
   padding: 0.313em;
+  background: rgba(252, 251, 251, .75);                         /* Light */
 }
 
 .sortable { 
@@ -348,8 +348,8 @@ img.boy, img.girl, img.ads {
 
 .selectable {
   background-color: rgba(153, 204, 255, 1);                     /*  Blue-medium */
-  color: rgba(224, 185, 114, 1);                                /*  Orange */ 
-  border: 0.125em solid rgba(224, 185, 114, 1);                 /*  Orange */ 
+  color: rgba(204, 153, 102, 1);                                /*  Tan */ 
+  border: 0.125em solid rgba(204, 153, 102, 1);                 /*  Tan */
 }
 
 /*  Styling the content on the detail page and some on the search page, as well --------------------------------  */
@@ -469,15 +469,38 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
 /* The Dreaded Media Queries --------------------------------------------------  */
 
 
-/* iPads (landscape) ----------- */
+/* Mobile-small (landscape) ----------- */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (max-device-width : 768px) {
+  
+  #about {
+    font-size: 1.250em;
+    line-height: 1;
+    
+  }
 
+  section {
+    width: 90%;
+  }
+
+  .articles {
+    width: 90%;
+    margin: 0.313em;
+  }
+
+  #loginimgs {
+    float: none;
+  }
 }
 
-/* iPads (portrait) ----------- */
+/* Tablets ----------- */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) and (orientation : portrait) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+
+  #about {
+    font-size: 1.275em;
+    line-height: 1.5;
+  }
 
 }
 
@@ -518,7 +541,7 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
 
 /* Large screens ----------- */
 
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width : 1200px) {
   
   #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
