@@ -469,12 +469,6 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
 /* The Dreaded Media Queries --------------------------------------------------  */
 
 
-/* Smartphones (portrait) ----------- */
-
-@media only screen and (max-width : 320px) {
-
-}
-
 /* iPads (landscape) ----------- */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
@@ -483,13 +477,13 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
 
 /* iPads (portrait) ----------- */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) and (orientation : portrait) {
 
 }
 
 /* Desktops and laptops ----------- */
 
-@media only screen and (min-width : 1224px) and (orientation: landscape) {
+@media only screen and (min-width : 1024px) {
   
   #favesAbout:hover, #searchAbout:hover {
   white-space: normal;
