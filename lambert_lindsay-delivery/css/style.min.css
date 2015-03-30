@@ -1,0 +1,164 @@
+*{  vertical-align:baseline;   font-family:inherit;   font-style:inherit;   font-size:100%;   border:none;   padding:0;   margin:0}
+ 
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl{  margin:1.250em 0}
+ 
+li, dd, blockquote{  margin-left:2.500em}
+ 
+table{  border-collapse:collapse;   border-spacing:0}
+
+.cf:before, 
+.cf:after{ content:""; /* 1 */ display:table; /* 2 */}
+
+.cf:after{ clear:both}
+
+.cf{ *zoom:1}
+
+ 
+ 
+ body{ font-family:'Josefin Sans',sans-serif;  background:rgba(255,204,102,1);   padding:0.313em;  margin-top:1.875em;  line-height:2}
+
+ h1, h2{ font-family:'Poiret One',cursive;  background-color:rgba(204,153,102,1);  /* Tan */ color:rgba(204,204,255,1);    margin:0.313em;  padding:0.313em;  border-radius:0.250em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+ 
+a:link{ color:rgba(51,204,204,1);   text-decoration:none}
+a:visited{ color:rgba(153,204,255,1)}
+a:hover{ color:rgba(204,204,255,1);   text-decoration:underline;  background-color:rgba(255,204,102,.75)}
+a:active{ color:rgba(51,204,204,1);   text-decoration:underline}
+
+#jumbotron{ padding:1.875em 0.938em;  margin-top:4.688em;  color:inherit;  background-color:rgba(204,153,102,1);  /* Tan */}
+
+.tooltip{ display:none;  position:absolute;  border:0.063em solid rgba(153,204,255,1);   background-color:rgba(204,153,102,1);  /* Tan */ border-radius:0.250em;  padding:0.625em;  color:rgba(153,204,255,1);   font-size:1em}
+
+#about{ color:rgba(153,204,255,1);   background:rgba(204,153,102,1);  /* Tan */ padding:0.313em;  margin:0.625em;  font-size:1.500em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   text-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+#about h2{ color:rgba(204,153,102,1);  /* Tan */ background:rgba(255,204,102,.75);   text-shadow:none}
+
+section{ width:80%;  position:static;  padding:0.625em;  margin:0.625em;  background-color:rgba(204,153,102,1);  /* Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+.articles{ width:80%;  background-color:rgba(204,153,102,1);  /* Tan */ color:rgba(153,204,255,1);   padding:0.313em;  margin:0.625em;  border:0.188em solid rgba(204,153,102,1);  /* Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   border-radius:0.375em}
+
+#bestmatch{ margin-top:3.125em;  background-color:rgba(153,204,255,1);   color:rgba(255,169,75,1)}
+
+.description{ position:relative;  color:rgba(204,153,102,1);  /* Tan */  font-size:1.500em;  padding:0.313em;  margin:0.313em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+h3.namestyles{ color:rgba(204,153,102,1);  /* Tan */  font-size:1.750em;  text-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+#login, #newMember{ font-size:1.250em;  width:45%;  float:left;  color:rgba(51,204,204,1);   border:0.125em solid rgba(51,204,204,1);    padding:0.313em;  margin:0.938em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   background:rgba(204,153,102,1);  /* Tan */}
+
+div#login{ margin-top:5.00em}
+
+#newMember{ margin-top:5.00em}
+
+form.login{ height:12.500em;  margin:0.625em}
+
+#loginimgs{ margin-top:7.500em;  float:left;  border:0.125em solid rgba(51,204,204,1);   box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   padding:0.313em}
+
+img.boy, img.girl, img.ads{ top:3.750em;  border:0.125em solid rgba(51,204,204,1);   box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   padding:0.313em;  background:rgba(252,251,251,.75);   margin:0.313em}
+
+#favesAbout, #searchAbout{ font-size:1.500em;  background-color:rgba(204,153,102,1);  /* Tan */ color:rgba(51,204,204,1);   padding:1.250em;  margin-top:4.688em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   border:0.125em solid rgba(51,204,204,1);   text-overflow:ellipsis;  overflow:hidden;  white-space:nowrap;  width:25.000em;  cursor:pointer;  text-shadow:rgba(0,0,0,.7)}
+
+ 
+ 
+/*}
+*/
+ 
+#detailDress img{ width:70%;  height:70%;  border:0.125em solid rgba(51,204,204,1);   box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   padding:0.625em;  background:rgba(252,251,251,.75);   margin-top:3.750em}
+
+#detailpg{ width:90%;  background:rgba(204,204,255,1);   border-radius:0.375em;  padding:0.625em;  margin:0.625em;  border:0.125em solid rgba(51,204,204,1);   box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+.detaildescript{ width:90%;  position:relative;  font-size:1.125em;  color:rgba(204,204,255,1);   border-radius:0.375em;  background:rgba(204,153,102,1);  /* Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   margin:0.625em;  padding:0.625em;  border:rgba(204,153,102,1);  /* Tan */}
+
+#detailpgcontent{ width:45%;  float:right;  margin:3.125em 0.625em 0.625em 0.625em;  border-radius:0.375em;  padding:0.625em;  border:rgba(204,153,102,1);  /* Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+#detailpgcontent h2{ width:90%;  color:rgba(153,204,255,1);   border-radius:0.375em;  padding:0.313em;  background:rgba(204,153,102,1);  /* Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+#detailDress{ float:left;  border-radius:0.375em;  margin:0.625em;  padding:0.313em}
+
+.sortable{ list-style-type:none;  margin:0;  padding:0;  width:60%}
+.sortable li{ margin:0 0.188em 0.188em 0.188em;  padding:0.4em;  padding-left:1.5em;  font-size:1.4em;  height:1.125em}
+.sortable li span{ position:absolute;  margin-left:-1.3em}
+
+.selectable{ background-color:rgba(153,204,255,1);   color:rgba(204,153,102,1);  /*  Tan */  border:0.125em solid rgba(204,153,102,1);  /*  Tan */}
+
+#detailDress, #searchFilter{ font-size:1.375em;  padding:0.625em;  margin:0.625em;  border-radius:0.375em}
+
+#searchFilter, .searchpgform{ color:rgba(204,153,102,1);  /*  Tan */ background:rgba(51,204,204,1);   border:0.063em solid rgba(204,153,102,1);  /*  Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);  /*  Tan */ margin:0.625em;  padding:0.625em;  border-radius:0.375em;  text-shadow:0.063em 0.125em 0.125em rgba(0,0,0,.7)}
+
+#searchFilter{ color:rgba(204,153,102,1);  /*  Tan */ background:rgba(51,204,204,1);   border:0.063em solid rgba(204,153,102,1);  /*  Tan */ border-radius:0.375em}
+
+.searchpgform{ color:rgba(51,204,204,1);   background:rgba(204,153,102,1);  /*  Tan */ border:0.063em solid rgba(51,204,204,1);   border-radius:0.375em}
+
+.searchPics{ float:left}
+
+#signupHdr{ font-size:1.250em;  background-color:rgba(204,204,255,1);   color:rgba(51,204,204,1);   padding:0.625em;  margin-top:3.125em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   border:0.125em solid rgba(51,204,204,1)}
+
+button.btn.btn-success, input#mycartbtn.masterTooltip, #addfavorites, #searchbtn, button#logIn, button#signup, button#register{ font-size:1.125em;  color:rgba(204,153,102,1);  /*  Tan */ background:rgba(51,204,204,1);   border:0.063em solid rgba(204,153,102,1);  /*  Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);  /*  Tan */ margin:0.625em;  padding:0.625em;  border-radius:0.375em;  text-shadow:0.063em 0.125em 0.125em rgba(0,0,0,.7)}
+
+ /*}
+*/
+#mycartitems{ position:absolute;  color:rgba(204,153,102,1);  /*  Tan */ background:rgba(51,204,204,1);   border:0.063em solid rgba(204,153,102,1);  /*  Tan */ box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   margin:0.625em;  padding:0.625em;  border-radius:0.375em;  text-shadow:0.063em 0.125em 0.125em rgba(0,0,0,.7)}
+
+/*}
+*/
+#mycartmove{ width:55.313em;  margin-top:6.250em;  border-radius:0.375em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7)}
+
+@media only screen and (max-device-width:768px){  #about{ font-size:1.250em;  line-height:1}
+
+ section{ width:90%}
+
+ .articles{ width:90%;  margin:0.313em}
+
+ #loginimgs{ float:none}
+
+ img.boy, img.girl, img.ads{ top:0;  width:40%}
+
+ #favesAbout, #searchAbout{ font-size:1.250em;  width:20.125em;  margin-top:3.00em}
+
+ #bestmatch{ width:60%}
+
+ #jumbotron img{ width:50%;  height:50%}
+
+ #login, #newMember{ width:30%}
+
+ .masterTooltip, #username, #password{ width:30%;  padding:0.313em;  margin:0.313em}
+
+ #sortable{ width:85%}
+
+ #detailpgcontent{ float:none;  width:90%}
+
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1023px){ #about{ font-size:1.275em;  line-height:1.50}
+
+ #loginimgs{ float:left}
+
+ #favesAbout, #searchAbout{ font-size:1.275em;  width:23.350em;  margin-top:3.475em}
+
+ img.boy, img.girl, img.ads{ top:0;  width:75%}
+
+ #bestmatch{ width:75%}
+
+ #jumbotron img{ width:75%;  height:75%}
+
+ #sortable{ width:75%}
+
+ #detailpgcontent{ float:none;  width:75%}
+
+}
+
+@media only screen and (min-width:1024px){  #favesAbout:hover,#searchAbout:hover{ white-space:normal;  font-size:1.525em;  background-color:rgba(51,204,204,1);   color:rgba(204,153,102,1);  /* Tan */ padding:1.250em;  margin-top:4.688em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   border:0.125em solid rgba(204,153,102,1);  /* Tan */ text-shadow:rgba(0,0,0,.7)}
+
+ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites:hover, #searchbtn:hover, button#logIn:hover, button#signup:hover, button#register:hover{ color:rgba(51,204,204,1);   background:rgba(204,153,102,1);  /*  Tan */ border:0.063em solid rgba(51,204,204,1);   box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   margin:0.625em;  padding:0.625em;  border-radius:0.375em;  text-shadow:0.063em 0.125em 0.125em rgba(0,0,0,.7)}
+
+ #mycartitems:hover{ color:rgba(51,204,204,1);   background:rgba(204,153,102,1);  /*  Tan */ border:0.125em solid rgba(51,204,204,1)}
+
+}
+
+@media only screen and (min-width:1200px){  #favesAbout:hover,#searchAbout:hover{ white-space:normal;  font-size:1.525em;  background-color:rgba(51,204,204,1);   color:rgba(204,153,102,1);  /* Tan */ padding:1.250em;  margin-top:4.688em;  box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   border:0.125em solid rgba(204,153,102,1);  /* Tan */ text-shadow:rgba(0,0,0,.7)}
+
+ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites:hover, #searchbtn:hover, button#logIn:hover, button#signup:hover, button#register:hover{ color:rgba(51,204,204,1);   background:rgba(204,153,102,1);  /*  Tan */ border:0.063em solid rgba(51,204,204,1);   box-shadow:0.063em 0.125em 0.188em rgba(0,0,0,.7);   margin:0.625em;  padding:0.625em;  border-radius:0.375em;  text-shadow:0.063em 0.125em 0.125em rgba(0,0,0,.7)}
+
+ #mycartitems:hover{ color:rgba(51,204,204,1);   background:rgba(204,153,102,1);  /*  Tan */ border:0.125em solid rgba(51,204,204,1)}
+
+}
+
