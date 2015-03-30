@@ -119,6 +119,7 @@ a:active {
 }
 
 
+
 /*  Styling for the 'About' section on the index page */
 
 #about {
@@ -173,11 +174,10 @@ section {
 
 .description {
   position: relative;
-  color: rgba(255, 169, 75, 1);                                 /* Orange */ 
+  color: rgba(204, 153, 102, 1);                                /* Tan */ 
   font-size: 1.500em;
   padding: 0.313em;
   margin: 0.313em;
-  text-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);       /*  Black */
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
 }
 
@@ -191,14 +191,21 @@ h3.namestyles {
 
 #login, #newMember {
   font-size: 1.250em;
+  width: 45%;
+  float: left;
   color: rgba(51, 204, 204, 1);                                 /*  Teal */
-  border: 0.125em solid rgba(255, 169, 75, 1);                  /* Orange */  
+  border: 0.125em solid rgba(51, 204, 204, 1);                  /*  Teal */  
   padding: 0.313em;
   margin: 0.938em;
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
+  background: rgba(204, 153, 102, 1);                           /* Tan */
 }
 
 div#login {
+  margin-top: 5.00em;
+}
+
+#newMember {
   margin-top: 5.00em;
 }
 
@@ -211,10 +218,9 @@ form.login {
 #loginimgs {
   margin-top: 7.500em;
   float: left;
-  border: 0.125em solid rgba(255, 169, 75, 1);                  /* Orange */
+  border: 0.125em solid rgba(51, 204, 204, 1);                  /*  Teal */
   box-shadow: 0.063em 0.125em 0.188em rgba(0, 0, 0, .7);        /*  Black */
-  padding: 0.625em;
-  background: rgba(252, 251, 251, .75);                         /* Light */
+  padding: 0.313em;
 }
 
 img.boy, img.girl, img.ads {
@@ -493,12 +499,36 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
 
   img.boy, img.girl, img.ads {
     top: 0;
+    width: 40%;
   }
 
   #favesAbout, #searchAbout {
     font-size: 1.250em;
     width: 20.125em;
     margin-top: 3.00em;
+  }
+
+  #bestmatch {
+    width: 60%;
+  }
+
+  #jumbotron img {
+    width: 50%;
+    height: 50%;
+  }
+
+  #login, #newMember {
+    width: 30%;
+  }
+
+  .masterTooltip, #username, #password {
+    width: 30%;
+    padding: 0.313em;
+    margin: 0.313em;
+  }
+
+  #sortable {
+    width: 80%;
   }
 
 }
@@ -520,6 +550,24 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
     font-size: 1.275em;
     width: 23.350em;
     margin-top: 3.475em;
+  }
+
+  img.boy, img.girl, img.ads {
+    top: 0;
+    width: 75%;
+  }
+
+  #bestmatch {
+    width: 75%;
+  }
+
+  #jumbotron img {
+    width: 75%;
+    height: 75%;
+  }
+
+  #sortable {
+    width: 65%;
   }
 
 }
