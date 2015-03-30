@@ -293,7 +293,7 @@ img.boy, img.girl, img.ads {
 }
 
 .detaildescript {
-  width: 25.000em;
+  width: 90%;
   position: relative;
   font-size: 1.125em;
   color: rgba(204, 204, 255, 1);                                /* Blue-light */
@@ -306,6 +306,7 @@ img.boy, img.girl, img.ads {
 }
 
 #detailpgcontent {
+  width: 45%;
   float: right;
   margin: 3.125em 0.625em 0.625em 0.625em;
   border-radius: 0.375em; 
@@ -315,6 +316,7 @@ img.boy, img.girl, img.ads {
 }
 
 #detailpgcontent h2 {
+  width: 90%;
   color: rgba(153, 204, 255, 1);                                /*  Blue-medium */
   border-radius: 0.375em; 
   padding: 0.313em;
@@ -324,7 +326,6 @@ img.boy, img.girl, img.ads {
 
 #detailDress {
   float: left;
-  width: 45%;
   border-radius: 0.375em; 
   margin: 0.625em;
   padding: 0.313em;
@@ -528,7 +529,7 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
     width: 85%;
   }
 
-  #detailpgcontent, #detailDress {
+  #detailpgcontent {
     float: none;
     width: 90%;
   }
@@ -572,7 +573,7 @@ button.btn.btn-success:hover, input#mycartbtn.masterTooltip:hover, #addfavorites
     width: 75%;
   }
 
-  #detailpgcontent, #detailDress {
+  #detailpgcontent {
     float: none;
     width: 75%;
   }
